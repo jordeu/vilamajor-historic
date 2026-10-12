@@ -52,5 +52,7 @@ No hi ha una dependència Git d’una altra aplicació.
 | Playwright Test | 1.64.0 | Apache-2.0 |
 
 Les dependències transitives conserven les seves llicències. Les eines Python
-es declaren a `scripts/requirements.txt`. Aquest inventari no canvia ni concedeix
-cap llicència sobre el codi del projecte, les dades o els materials de tercers.
+es declaren a `scripts/requirements.txt`. El codi propi i la documentació original
+del projecte es distribueixen amb la [llicència MIT](../LICENSE), copyright
+© 2026 Jordi Deu-Pons. Els materials de tercers i els seus derivats conserven
+les condicions descrites a [THIRD_PARTY_NOTICES.md](../THIRD_PARTY_NOTICES.md).

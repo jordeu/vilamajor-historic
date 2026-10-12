@@ -29,3 +29,4 @@ main{flex:1;min-height:0;position:relative}.map{position:relative;width:100%;hei
 .heritage-phase-buttons button:focus-visible {outline:3px solid var(--focus);outline-offset:3px}
 
 .heritage-phases .detail-note {margin-top:12px}
+.project-credit a {display:inline-flex;align-items:center;min-height:24px;text-underline-offset:3px}
