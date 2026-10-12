@@ -1,0 +1,693 @@
+{
+  "version": 1,
+  "researched": "2026-10-12",
+  "crs": "EPSG:25831",
+  "policy": "Les dates documentals no daten cada pedra. Només la Torre Roja disposa aquí de dimensions publicades; la resta són restitucions de volum amb dimensions aproximades, ajustades a la cartografia quan es conserva l’edifici. El paisatge antic i les cases de context són hipòtesis, no un aixecament arqueològic.",
+  "landmarks": [
+    {
+      "id": "torre",
+      "name": "Torre Roja",
+      "place": "Sant Pere · la Força",
+      "kind": "tower",
+      "position": [
+        449081.33,
+        4614876.07
+      ],
+      "rotation": 0.215,
+      "from": 1050,
+      "to": null,
+      "date": "Segle XI · reformes posteriors",
+      "cadastreId": "9251101DG4195S",
+      "confidence": "documented",
+      "dimensions": [
+        6,
+        25,
+        6
+      ],
+      "description": "Campanar romànic exempt. El model recull els quatre nivells, les finestres geminades, els arcs cecs i el coronament esglaonat. Les grans obertures de migdia i tramuntana canvien el 1663 i el 1776; l’arrebossat clar documentat al segle XIX desapareix el 1932.",
+      "limitations": "Alçada i costat aproximats segons el pla director; detall simplificat. El 1050 és una data de visualització dins la datació 1050–1060. El model no interpreta la torre com a torre de l’homenatge.",
+      "sources": [
+        {
+          "title": "SPAL · Pla director de la Torre Roja, 2014 · p. 10–13",
+          "url": "https://www.vilamajor.cat/media/repository/cespv/pla_director_torre_roja.pdf"
+        },
+        {
+          "title": "Diputació · Torre Roja",
+          "url": "https://patrimonicultural.diba.cat/element/torre-roja"
+        }
+      ]
+    },
+    {
+      "id": "pere",
+      "name": "Església de Sant Pere",
+      "place": "Sant Pere · la Força",
+      "kind": "gothic",
+      "position": [
+        449071.5,
+        4614895
+      ],
+      "rotation": 0.21,
+      "from": 1610,
+      "to": null,
+      "date": "1558–1610",
+      "cadastreId": "9251101DG4195S",
+      "confidence": "interpreted",
+      "dimensions": [
+        20,
+        15,
+        30
+      ],
+      "description": "Nau amb vuit capelles, contraforts, capçalera poligonal i comunidor. L’orientació nord–sud i la coberta a dues vessants segueixen la descripció patrimonial; la planta es contrasta amb el Cadastre.",
+      "limitations": "Volum exterior aproximat. La font dona 10 m per a la nau interior i uns 20 m per al comunidor. La coberta exterior, els portals i la resta de mesures són una restitució simplificada. El temple acabat es mostra des de 1610.",
+      "sources": [
+        {
+          "title": "Diputació · Església de Sant Pere",
+          "url": "https://patrimonicultural.diba.cat/element/sant-pere-de-vilamajor"
+        }
+      ]
+    },
+    {
+      "id": "obres-pere",
+      "name": "La nova església en construcció",
+      "place": "Sant Pere · la Força",
+      "kind": "construction",
+      "position": [
+        449071.5,
+        4614895
+      ],
+      "rotation": 0.21,
+      "from": 1558,
+      "to": 1610,
+      "date": "1558–1610",
+      "confidence": "hypothesis",
+      "dimensions": [
+        20,
+        8,
+        30
+      ],
+      "description": "La construcció del nou temple canvia l’orientació de l’església, d’est–oest a nord–sud. Es representa una obra oberta amb murs baixos i bastides.",
+      "limitations": "Les fases concretes de l’obra i les bastides són interpretatives; no s’afirma que aquest fos l’estat exacte de cada any.",
+      "sources": [
+        {
+          "title": "Diputació · Església de Sant Pere",
+          "url": "https://patrimonicultural.diba.cat/element/sant-pere-de-vilamajor"
+        }
+      ]
+    },
+    {
+      "id": "romanica",
+      "name": "El temple romànic",
+      "place": "Sant Pere · la sagrera",
+      "kind": "romanesque",
+      "position": [
+        449068,
+        4614888
+      ],
+      "rotation": 1.57,
+      "from": 1050,
+      "to": 1558,
+      "date": "Segles XI–XVI",
+      "confidence": "hypothesis",
+      "dimensions": [
+        9,
+        8,
+        23
+      ],
+      "description": "Restitució d’una església d’eix est–oest al costat de la Torre Roja, que quedava al sud de l’absis. Permet entendre per què el campanar és separat de l’església actual.",
+      "limitations": "Existència i orientació documentades; planta, mides, absis i coberta hipotètics. No es conserva aquí un aixecament de la planta medieval.",
+      "sources": [
+        {
+          "title": "SPAL · Pla director de la Torre Roja, 2014",
+          "url": "https://www.vilamajor.cat/media/repository/cespv/pla_director_torre_roja.pdf"
+        }
+      ]
+    },
+    {
+      "id": "orila",
+      "name": "L’església d’Orila",
+      "place": "Sant Pere · origen parroquial",
+      "kind": "early",
+      "position": [
+        449068,
+        4614888
+      ],
+      "rotation": 1.57,
+      "from": 872,
+      "to": 1050,
+      "date": "872 · testimoni epigràfic",
+      "confidence": "hypothesis",
+      "dimensions": [
+        6,
+        5,
+        12
+      ],
+      "description": "La làpida del prevere Orila, mort el 872, és un testimoni primerenc de la comunitat. Una petita nau representa de manera evocativa el temple anterior al romànic.",
+      "limitations": "La làpida no permet recuperar l’aspecte de l’edifici. Aquest volum és tipològic: ubicació precisa, dimensions i alçat no verificats.",
+      "sources": [
+        {
+          "title": "Diputació · Església de Sant Pere i làpida d’Orila",
+          "url": "https://patrimonicultural.diba.cat/element/sant-pere-de-vilamajor"
+        }
+      ]
+    },
+    {
+      "id": "lleir",
+      "name": "Sant Lleïr",
+      "place": "Sant Antoni · Sant Lleïr",
+      "kind": "lleir",
+      "position": [
+        450018.4,
+        4614100.6
+      ],
+      "rotation": 0,
+      "from": 1508,
+      "to": null,
+      "date": "Capella documentada el 1303 · obra del segle XVI",
+      "cadastreId": "0242014DG5104S",
+      "confidence": "interpreted",
+      "dimensions": [
+        13,
+        7,
+        14
+      ],
+      "description": "Capella i casa del paborde formen un conjunt, amb cobertes de teula, espadanya i contraforts. El volum representa la configuració del segle XVI, posterior a la primera capella documentada.",
+      "limitations": "Dimensions i distribució simplificades dins l’empremta cadastral. No es mostra aquest mateix edifici el 1303; les reformes de 2006 no es restitueixen individualment.",
+      "sources": [
+        {
+          "title": "Ajuntament de Sant Antoni · Ermita de Sant Lleïr",
+          "url": "https://www.santantonidevilamajor.cat/el-municipi/turisme/llocs-dinteres/ermita-de-sant-lleir.html"
+        }
+      ]
+    },
+    {
+      "id": "antoni",
+      "name": "Església de Sant Antoni",
+      "place": "Sant Antoni · nucli urbà",
+      "kind": "basilica",
+      "position": [
+        450270.73,
+        4613526.6
+      ],
+      "rotation": -1.20275,
+      "from": 1949,
+      "to": null,
+      "date": "1944–1949 · Sebastià Bonet i Ayet",
+      "cadastreId": "0338301DG5103N",
+      "confidence": "interpreted",
+      "dimensions": [
+        20,
+        14,
+        35
+      ],
+      "description": "Model de la basílica actual, amb nau central, laterals més baixes, absis circular, frontó i pòrtic de set arcs. La seva posició es fixa sobre l’empremta cadastral de l’edifici de 1944.",
+      "limitations": "Volum aproximat; columnes, proporcions i acabats no són un aixecament arquitectònic. No es projecta el temple actual sobre l’església de 1789, que era un altre edifici. Eix de la nau i pòrtic orientats segons la planta cadastral i comprovats amb l’ortofoto de 2025: entrada a ponent-sud-oest.",
+      "sources": [
+        {
+          "title": "Ajuntament de Sant Antoni · Església de Sant Antoni",
+          "url": "https://www.santantonidevilamajor.cat/el-municipi/turisme/llocs-dinteres/esglesia-de-sant-antoni.html"
+        }
+      ]
+    },
+    {
+      "id": "susanna",
+      "name": "Santa Susanna",
+      "place": "Sant Pere · veïnat de muntanya",
+      "kind": "susanna",
+      "position": [
+        449499.5,
+        4621315.3
+      ],
+      "rotation": 1.57,
+      "from": 1683,
+      "to": null,
+      "date": "1683 · reedificació dels Samont",
+      "cadastreId": "08234A00100067",
+      "confidence": "interpreted",
+      "dimensions": [
+        7,
+        6,
+        17
+      ],
+      "description": "Nau d’eix est–oest, teulada a dues vessants i petit campanar quadrangular a ponent. La parròquia és documentada el 1190, però l’edifici d’aquest indret correspon a la reedificació de 1683.",
+      "limitations": "Dimensions aproximades segons l’empremta cadastral. L’església medieval era més al nord: no es reutilitza aquesta posició per representar-la.",
+      "sources": [
+        {
+          "title": "Diputació · Santa Susanna de Vilamajor",
+          "url": "https://patrimonicultural.diba.cat/element/santa-susanna-2"
+        }
+      ]
+    },
+    {
+      "id": "elies",
+      "name": "Sant Elies",
+      "place": "Sant Pere · turó de Sant Elies",
+      "kind": "elies",
+      "position": [
+        448394.8,
+        4620110.2
+      ],
+      "rotation": 0,
+      "from": 1633,
+      "to": null,
+      "date": "Documentada el 1226 · portal de 1633",
+      "cadastreId": "08234A00100023",
+      "confidence": "interpreted",
+      "dimensions": [
+        10,
+        5,
+        12
+      ],
+      "description": "Ermita baixa adossada a la casa de l’ermità, amb absis, coberta asimètrica i espadanya. El portal conserva la data de 1633.",
+      "limitations": "El model simplifica l’estat conservat i adopta 1633 com a llindar de visualització, sense datar-hi tot l’edifici. No restitueix la capella del 1226 ni les dependències desaparegudes.",
+      "sources": [
+        {
+          "title": "Diputació · Sant Elies",
+          "url": "https://patrimonicultural.diba.cat/index.php/element/sant-elies-0"
+        }
+      ]
+    },
+    {
+      "id": "bertran",
+      "name": "Can Bertran",
+      "place": "Sant Antoni de Vilamajor · França, 36",
+      "kind": "bertran",
+      "position": [
+        450196.95,
+        4613438.5
+      ],
+      "rotation": 0.625,
+      "viewAngle": 1.05,
+      "from": 1897,
+      "to": null,
+      "date": "Mas fotografiat el 1897 · reforma de 1910–1920",
+      "cadastrePartIds": [
+        "0336002DG5103N_part2",
+        "0336002DG5103N_part11",
+        "0336002DG5103N_part17",
+        "0336002DG5103N_part19",
+        "0336002DG5103N_part20",
+        "0336002DG5103N_part18",
+        "0336002DG5103N_part21",
+        "0336002DG5103N_part12"
+      ],
+      "confidence": "interpreted",
+      "dimensions": [
+        40,
+        14,
+        38
+      ],
+      "description": "Un mas transformat en casa d’estiueig. La reforma atribuïda a Joan Rubió i Bellver combina arrebossat clar i maó vist: destaca la façana amb galeries d’arcs, el cos central elevat i la torratxa independent amb mirador.",
+      "limitations": "La fotografia de 1897 documenta el mas anterior a la reforma. La planta actual procedeix del Cadastre; alçades, façanes menys visibles, escala i cobertes són aproximades. El 1920 és un llindar de visualització per a una reforma situada entre 1910 i 1920, no una data exacta d’obra. La tradició d’un origen medieval no permet reconstruir-ne l’aspecte. Els annexos antics no documentats s’ometen.",
+      "phases": [
+        {
+          "from": 1897,
+          "label": "El mas antic",
+          "description": "Evocació de la façana baixa que mostra la fotografia d’Antoni Gallardo (CEC, 1897). La profunditat es pren de la planta actual."
+        },
+        {
+          "from": 1920,
+          "label": "La casa reformada",
+          "description": "Façana de tres nivells i galeria superior; torratxa oberta i annexos. L’any representa el final aproximat de l’interval de reforma."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ferran Sarrià · Històries de Vilamajor",
+          "url": "https://www.historiesdevilamajor.cat/can-bertran-de-vilamajor/"
+        },
+        {
+          "title": "Fotografies actuals i de 1897 · Pobles de Catalunya",
+          "url": "https://www.poblesdecatalunya.cat/element.php?e=18618"
+        },
+        {
+          "title": "Planta · Cadastre INSPIRE",
+          "url": "https://www.catastro.hacienda.gob.es/webinspire/index.html"
+        }
+      ]
+    },
+    {
+      "id": "auferil",
+      "name": "Ca l’Auferil",
+      "place": "Sant Antoni · Anselm Clavé, 1",
+      "from": 1912,
+      "date": "1911–1912 · torre d’estiueig",
+      "dimensions": [
+        16,
+        15,
+        14
+      ],
+      "viewAngle": 0.956,
+      "viewDistance": 44,
+      "description": "Una torre d’estiueig d’estuc groc, amb una torre lateral emmerletada i arcs apuntats. El maó vist i els petits coronaments de ceràmica verda ressegueixen les obertures. Una galeria de cinc arcs i un porxo amb terrassa completen la façana.",
+      "limitations": "L’autor és desconegut: la possible relació amb Melcior de Palau és una conjectura, no una atribució confirmada. El 1912 representa el final de l’interval documentat. Planta cadastral i façana contrastades amb fotografies; alçades, interiors i cares menys visibles són aproximats. El jardí i la tanca no es restitueixen sense un aixecament.",
+      "sources": [
+        {
+          "title": "Inventari · Arquitectura Modernista",
+          "url": "https://www.arquitecturamodernista.cat/obres/es/sant-antoni-de-vilamajor/tots/ca-l-auferil"
+        },
+        {
+          "title": "Estudi i fotografies · Valentí Pons",
+          "url": "https://vptmod.blogspot.com/2021/06/sant-antoni-de-vilamajor-ca-lauferil.html"
+        }
+      ],
+      "kind": "auferil",
+      "position": [
+        450048.5,
+        4613710
+      ],
+      "rotation": 0.956,
+      "to": null,
+      "confidence": "interpreted",
+      "cadastrePartIds": [
+        "0139105DG5103N_part2",
+        "0139105DG5103N_part3",
+        "0139105DG5103N_part4"
+      ]
+    },
+    {
+      "id": "gil-miret",
+      "name": "Casa Gil Miret Rosselló",
+      "place": "Sant Antoni · França, 22",
+      "from": 1910,
+      "date": "1910 · Manuel Joaquim Raspall",
+      "dimensions": [
+        5,
+        11,
+        15
+      ],
+      "viewAngle": 2.266963293506218,
+      "viewDistance": 15,
+      "viewTarget": [
+        450148.6705,
+        4613518.5855
+      ],
+      "description": "Casa d’estiueig projectada per Manuel Joaquim Raspall. En una façana estreta entre mitgeres conviuen el maó, el revestiment de pedra i el trencadís. El balcó de forja corba i les llindes asimètriques en defineixen el caràcter modernista.",
+      "limitations": "La façana és una interpretació geomètrica de les fotografies, no una còpia exacta de cada peça de forja o mosaic. Es conserven la planta i l’orientació cadastrals; alçades, coberta i façana posterior són aproximades. No s’ha de confondre aquesta casa amb la urbanització Can Miret.",
+      "sources": [
+        {
+          "title": "Autoria i data · Arquitectura Modernista",
+          "url": "https://www.arquitecturamodernista.cat/obres/es/sant-antoni-de-vilamajor/tots/casa-miret"
+        },
+        {
+          "title": "Façana i detalls · Pobles de Catalunya",
+          "url": "https://www.poblesdecatalunya.cat/element.php?e=18621"
+        }
+      ],
+      "kind": "gil-miret",
+      "position": [
+        450143.3,
+        4613514.1
+      ],
+      "rotation": 2.266963293506218,
+      "to": null,
+      "confidence": "interpreted",
+      "cadastrePartIds": [
+        "0137206DG5103N_part2"
+      ],
+      "viewElevation": 1.1
+    },
+    {
+      "id": "miquel-cortes",
+      "name": "Can Miquel Cortès",
+      "place": "Sant Pere · plaça de l’Església, 4",
+      "from": 1930,
+      "date": "Inicis del segle XX · conjunt de Can Cortès",
+      "dimensions": [
+        7,
+        10,
+        7
+      ],
+      "viewAngle": -1.45,
+      "viewDistance": 25,
+      "description": "La casa cantonera obre la façana principal a la plaça de l’Església. L’arrebossat groguenc, el balcó de forja, els motius florals i el coronament ondulat la diferencien de les altres cases del conjunt de Can Cortès.",
+      "limitations": "El 1930 és un llindar de visualització convencional per a una façana datada a inicis del segle XX; no és l’any exacte de construcció. Només se substitueix el cos cantoner identificat, sense absorbir la veïna Tulipa. Planta cadastral; alçades i decoració simplificades a partir de fotografies. No es reconstrueixen estats anteriors no documentats.",
+      "sources": [
+        {
+          "title": "Fitxa individual · Diputació de Barcelona",
+          "url": "https://patrimonicultural.diba.cat/element/can-miquel-cortes"
+        },
+        {
+          "title": "Conjunt de Miquel Cortès · Diputació",
+          "url": "https://patrimonicultural.diba.cat/element/conjunt-noucentista-de-miquel-cortes"
+        }
+      ],
+      "kind": "miquel-cortes",
+      "position": [
+        449110.2,
+        4614891.2
+      ],
+      "rotation": -1.45,
+      "to": null,
+      "confidence": "interpreted",
+      "cadastrePartIds": [
+        "9251019DG4195S_part3"
+      ]
+    },
+    {
+      "id": "dalia",
+      "name": "La Dàlia",
+      "place": "Sant Pere · carrer de la Dàlia, 4",
+      "from": 1930,
+      "date": "Inicis del segle XX · antiga La Flor",
+      "dimensions": [
+        6,
+        11,
+        14
+      ],
+      "viewAngle": 0.12,
+      "viewDistance": 27,
+      "viewTarget": [
+        449132.86,
+        4614882.2
+      ],
+      "description": "Una casa estreta de planta baixa i dos pisos, amb dues balconades de forja orientades a migdia. El coronament corbat amb un petit òcul singularitza la façana. En una fotografia dels anys trenta encara apareix amb el nom de La Flor.",
+      "limitations": "El 1930 és un llindar visual aproximat vinculat a la documentació dels anys trenta; no data amb precisió l’obra. Es representa la façana coneguda sense simular el deteriorament actual ni reproduir rètols canviants. Planta cadastral; alçades, interior i part posterior interpretats.",
+      "sources": [
+        {
+          "title": "La Dàlia · Diputació de Barcelona",
+          "url": "https://patrimonicultural.diba.cat/element/la-dalia"
+        }
+      ],
+      "kind": "dalia",
+      "position": [
+        449132.86,
+        4614888.4
+      ],
+      "rotation": 0,
+      "to": null,
+      "confidence": "interpreted",
+      "cadastrePartIds": [
+        "9251010DG4195S_part1"
+      ]
+    },
+    {
+      "id": "jardinera",
+      "name": "La Jardinera",
+      "place": "Sant Pere · carrer de la Dàlia, 2",
+      "from": 1930,
+      "date": "Inicis del segle XX · ajuntament de 1940 a 1970",
+      "dimensions": [
+        8,
+        11,
+        8
+      ],
+      "viewAngle": 0.078,
+      "viewDistance": 29,
+      "description": "La façana de migdia combina un cos central elevat i dues terrasses laterals amb balustrades. Les obertures amb motius florals i el balcó continu formen part de la seva identitat. Va acollir l’ajuntament de Sant Pere entre 1940 i 1970.",
+      "limitations": "El 1930 és un llindar convencional per mostrar la casa d’inicis del segle XX, no una data d’obra verificada. Els tres cossos principals segueixen el Cadastre; es conserven els annexos cadastrals. Les alçades, la forja i els ornaments s’aproximen amb fotografies. L’ús municipal no implica una fase arquitectònica nova.",
+      "sources": [
+        {
+          "title": "La Jardinera · Diputació de Barcelona",
+          "url": "https://patrimonicultural.diba.cat/element/la-jardinera"
+        }
+      ],
+      "kind": "jardinera",
+      "position": [
+        449145.2,
+        4614891.4
+      ],
+      "rotation": 0.078,
+      "to": null,
+      "confidence": "interpreted",
+      "cadastrePartIds": [
+        "9251007DG4195S_part1",
+        "9251007DG4195S_part2",
+        "9251007DG4195S_part3"
+      ]
+    },
+    {
+      "id": "gol-torre",
+      "name": "Can Gol de la Torre",
+      "place": "Sant Antoni de Vilamajor",
+      "from": 1600,
+      "date": "Finestres del segle XVI · Mas ampliat en diverses etapes",
+      "dimensions": [
+        27,
+        12.3,
+        20
+      ],
+      "viewDistance": 58,
+      "viewAngle": -0.12,
+      "viewElevation": 0.43,
+      "description": "La teulada asimètrica, les dues finestres gòtiques i el portal de grans dovelles identifiquen Can Gol. Les cantoneres que es llegeixen a la façana recorden la torre incorporada dins la masia. La família Gol o Gual hi està vinculada des del segle XV.",
+      "limitations": "1600 és un llindar visual orientatiu per evocar el mas amb els elements del segle XVI; no data el conjunt conservat ni totes les ampliacions. La volumetria antiga extrapola la planta actual. Els annexos lateral i posterior només es mostren des de la documentació fotogràfica de 2023, sense atribuir-los aquesta data de construcció. Alçades, detalls escultòrics, colors i era són aproximats. El carro és decoratiu. Els horts, els murs baixos, els fruiters i la seva evolució són ambientació inventada. Les capçades i els accessos actuals són aproximats, orientats per fotografies i ortofoto; no són un inventari ni un aixecament. La retirada de l’ambientació agrícola el 1956 és un llindar narratiu, no una data documentada d’abandonament.",
+      "phases": [
+        {
+          "from": 1600,
+          "label": "El mas i la torre",
+          "description": "Interpretació del cos principal amb els elements del segle XVI. No es reconstrueix una torre medieval exempta. L’entorn evoca una petita explotació amb horts, fruiters i murs baixos; la seva disposició és imaginada."
+        },
+        {
+          "from": 2023,
+          "label": "Conjunt fotografiat",
+          "description": "S’hi incorporen els annexos lateral i posterior visibles el 2023. La data d’obra no està establerta."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Pobles de Catalunya · Descripció i fotografies (2023)",
+          "url": "https://www.poblesdecatalunya.cat/element.php?e=18639"
+        },
+        {
+          "title": "DGC INSPIRE · Empremtes cadastrals",
+          "url": "https://www.catastro.hacienda.gob.es/webinspire/index.html"
+        }
+      ],
+      "kind": "gol-torre",
+      "position": [
+        449038.97,
+        4612958.823
+      ],
+      "rotation": -0.029133863144370817,
+      "to": null,
+      "confidence": "interpreted",
+      "cadastrePartIds": [
+        "002010700DG41D_part1",
+        "002010700DG41D_part4",
+        "002010700DG41D_part5",
+        "002010700DG41D_part2",
+        "002010700DG41D_part3"
+      ]
+    },
+    {
+      "id": "derrocada",
+      "name": "Can Derrocada",
+      "place": "Sant Pere de Vilamajor",
+      "from": 1700,
+      "date": "Mas documentat el 1220 · Casal del segle XVII",
+      "dimensions": [
+        34,
+        15.2,
+        39
+      ],
+      "viewDistance": 70,
+      "viewAngle": 0.22,
+      "viewElevation": 0.55,
+      "description": "El casal conserva una coberta a quatre vessants, una xemeneia octogonal i un portal adovellat sota el balcó principal. El mas era un centre de poder de la família Roig. Les fotografies de Gallardo permeten restituir la galeria de l’ala lateral.",
+      "limitations": "1700 és un llindar orientatiu al final del segle XVII, no l’any exacte de construcció. Els annexos s’activen el 1936, al final de l’interval 1912–1936 atribuït a les fotografies: no és la data d’obra. No es modelen la capella, el portal del barri ni els elements interiors perquè no s’ha fixat prou bé la seva planta. Proporcions verticals, obertures laterals i acabats són aproximats; l’era i el carro són decoratius. Els horts, els murs baixos, els fruiters i la seva evolució són ambientació inventada. Les capçades i els accessos actuals són aproximats, orientats per fotografies i ortofoto; no són un inventari ni un aixecament. La retirada de l’ambientació agrícola el 1936 és un llindar narratiu, no una data documentada d’abandonament.",
+      "phases": [
+        {
+          "from": 1700,
+          "label": "El casal del XVII",
+          "description": "Evocació del casal conservat. La documentació medieval del mas no descriu aquest edifici."
+        },
+        {
+          "from": 1936,
+          "label": "Les ales fotografiades",
+          "description": "La galeria i els cossos laterals es restitueixen a partir de fotografies datades entre 1912 i 1936."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Diputació de Barcelona · Fitxa 08234-28",
+          "url": "https://patrimonicultural.diba.cat/element/can-derrocada"
+        },
+        {
+          "title": "Pobles de Catalunya · Fotografies de Gallardo i Esteves",
+          "url": "https://www.poblesdecatalunya.cat/element.php?e=18663"
+        },
+        {
+          "title": "DGC INSPIRE · Empremtes cadastrals",
+          "url": "https://www.catastro.hacienda.gob.es/webinspire/index.html"
+        }
+      ],
+      "kind": "derrocada",
+      "position": [
+        449359.5,
+        4614891.52
+      ],
+      "rotation": 0.42620910256042877,
+      "to": null,
+      "confidence": "interpreted",
+      "cadastrePartIds": [
+        "9452004DG4195S_part7",
+        "9452004DG4195S_part2",
+        "9452004DG4195S_part3",
+        "9452004DG4195S_part4",
+        "9452004DG4195S_part5"
+      ]
+    },
+    {
+      "id": "llinars",
+      "name": "Can Llinars · Can Sagarra",
+      "place": "Sant Pere de Vilamajor",
+      "from": 1700,
+      "date": "Mas documentat el 1262 · Casal del XVII · Granja lletera des de 1885",
+      "dimensions": [
+        28,
+        15,
+        32
+      ],
+      "viewDistance": 62,
+      "viewAngle": 0.65,
+      "viewElevation": 0.48,
+      "description": "La façana simètrica, el portal de dovelles, el rellotge de sol i les cantoneres de pedra defineixen Can Llinars. El 1885, Ferran de Sagarra hi instal·là la Granja-Torre de Sagarra, dedicada als làctics. Josep Maria de Sagarra hi escrigué El mal Caçador el 1915.",
+      "limitations": "1700 és un llindar orientatiu per al casal del XVII. La fotografia de 1924 ajuda a llegir la façana, però no prova tots els seus detalls al 1700. La galeria i les terrasses s’activen el 2016, quan les documenta la fitxa, sense datar-ne la construcció. S’ha prioritzat la coberta a quatre vessants descrita per la Diputació i visible a les fotografies davant la descripció discrepant d’una altra font. Alçades, porxos i acabats són interpretats. Era, carro i lleteres són ambientació inventada. Els horts, els murs baixos, els fruiters i la seva evolució són ambientació inventada. Les capçades i els accessos actuals són aproximats, orientats per fotografies i ortofoto; no són un inventari ni un aixecament. La retirada de l’ambientació agrícola el 1956 és un llindar narratiu, no una data documentada d’abandonament.",
+      "phases": [
+        {
+          "from": 1700,
+          "label": "El casal del XVII",
+          "description": "Interpretació de la façana conservada, contrastada amb la fotografia de 1924."
+        },
+        {
+          "from": 1885,
+          "label": "La granja lletera",
+          "description": "Les lleteres evoquen l’activitat documentada des de 1885; no es data ni es reconstrueix tota la fàbrica. El pati mostra un espai de treball interpretat. L’activitat lletera no es representa com a vigent avui."
+        },
+        {
+          "from": 2016,
+          "label": "Galeria i terrasses",
+          "description": "S’afegeixen els porxos i les terrasses de l’estat documentat el 2016. La seva data d’obra és desconeguda."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Diputació de Barcelona · Fitxa 08234-40",
+          "url": "https://patrimonicultural.diba.cat/element/can-llinars"
+        },
+        {
+          "title": "Pobles de Catalunya · Fotografies de 1924 i 2023",
+          "url": "https://www.poblesdecatalunya.cat/element.php?e=18668"
+        },
+        {
+          "title": "DGC INSPIRE · Empremtes cadastrals",
+          "url": "https://www.catastro.hacienda.gob.es/webinspire/index.html"
+        }
+      ],
+      "kind": "llinars",
+      "position": [
+        448972.855,
+        4615794.38
+      ],
+      "rotation": 0.30277640850554854,
+      "to": null,
+      "confidence": "interpreted",
+      "cadastrePartIds": [
+        "08234A00600152_part4",
+        "08234A00600152_part2",
+        "08234A00600152_part6",
+        "08234A00600152_part3"
+      ]
+    }
+  ]
+}

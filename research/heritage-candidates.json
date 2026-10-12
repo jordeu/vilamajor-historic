@@ -1,0 +1,825 @@
+{
+  "schemaVersion": 1,
+  "researched": "2026-10-12",
+  "language": "ca",
+  "status": "Can Bertran, Ca l’Auferil, Casa Gil Miret i tres cases del conjunt de Can Cortès incorporats; resta pendent segons cada candidat.",
+  "scope": "17 candidats o conjunts dels dos municipis. Selecció motivada, no inventari exhaustiu.",
+  "priorityPolicy": {
+    "P1": "Primera fase recomanada: rellevància alta i base visual inspeccionada suficient per iniciar una restitució exterior aproximada, amb les mancances indicades.",
+    "P2": "Segona fase: bons candidats, amb menor prioritat inicial o documentació gràfica/encaix pendent.",
+    "P3": "Recerca específica de fases o edificis desapareguts abans de modelar."
+  },
+  "criteria": [
+    "Rellevància per a la història compartida",
+    "Silueta i detalls recognoscibles",
+    "Fonts arquitectòniques i fotografies disponibles",
+    "Possibilitat de separar fases temporals",
+    "Encaix geogràfic i cost del modelatge"
+  ],
+  "globalLimits": [
+    "Viable no significa aixecament mètric ni fotogrametria: les cares no vistes i les dimensions requereixen contrast.",
+    "La data d’un document, d’una inscripció, d’una reforma i la data cadastral són camps diferents.",
+    "No copiar les dates cadastrals al from dels models patrimonials.",
+    "Les imatges són referències de consulta, no textures ni actius redistribuïts. Arquitectura Modernista i Pobles de Catalunya indiquen restriccions de reproducció; comprovar llicència individual abans de publicar fotos.",
+    "Les prioritats i la viabilitat són valoracions d’aquesta recerca, no categories oficials de protecció."
+  ],
+  "implementationNotes": [
+    "Crear geometria específica per cada edifici; separar cases del conjunt de Can Cortès.",
+    "Ajustar planta, cota i orientació al Cadastre i a l’ortofoto, deixant lliures camins, patis i portals.",
+    "Excloure del volum cadastral genèric només les parts substituïdes pel model, quan aquest sigui visible.",
+    "Ampliar l’esquema actual from/to amb variants i intervals incerts; conservar models anteriors només quan hi hagi evidència.",
+    "Fer recognoscibles cobertes, torres, portals, balcons i colors; finestres segons plantes reals. Representar ornamentació fina només de prop.",
+    "Fitxa amb noms alternatius, cronologia, autoria i grau de certesa, tret arquitectònic, història local, fonts i parts interpretades.",
+    "Afegir vols de proximitat: el detall de façana no es percep des de la panoràmica territorial."
+  ],
+  "nextResearch": [
+    "Consultar POUM i catàlegs originals per obtenir plantes i alçats, especialment Can Ribalta fitxa 052.",
+    "Fons SPAL: inventari de fotografies de 1913–1980 per diverses masies; s’ha identificat la font, no s’ha inspeccionat el fons complet.",
+    "Arxius municipals i CESPV: expedients de reforma, enderroc i fotografies històriques.",
+    "Revisió actual de cada façana i coberta: els inventaris de 2016 no certifiquen l’estat de 2026."
+  ],
+  "sources": {
+    "miret-modernisme": {
+      "title": "Arquitectura Modernista · Casa Gil Miret Rosselló",
+      "url": "https://www.arquitecturamodernista.cat/obres/es/sant-antoni-de-vilamajor/tots/casa-miret",
+      "accessed": "2026-10-12"
+    },
+    "auferil-modernisme": {
+      "title": "Arquitectura Modernista · Ca l’Auferil",
+      "url": "https://www.arquitecturamodernista.cat/obres/es/sant-antoni-de-vilamajor/tots/ca-l-auferil",
+      "accessed": "2026-10-12"
+    },
+    "auferil-pons": {
+      "title": "Valentí Pons · Ca l’Auferil, 2021",
+      "url": "https://vptmod.blogspot.com/2021/06/sant-antoni-de-vilamajor-ca-lauferil.html",
+      "accessed": "2026-10-12"
+    },
+    "bertran-historia": {
+      "title": "Ferran Sarrià · Can Bertran, 2025",
+      "url": "https://www.historiesdevilamajor.cat/can-bertran-de-vilamajor/",
+      "accessed": "2026-10-12"
+    },
+    "bertran-fotos": {
+      "title": "Pobles de Catalunya · Can Bertran",
+      "url": "https://www.poblesdecatalunya.cat/element.php?e=18618",
+      "accessed": "2026-10-12"
+    },
+    "miret-fotos": {
+      "title": "Pobles de Catalunya · Casa Gil Miret",
+      "url": "https://www.poblesdecatalunya.cat/element.php?e=18621",
+      "accessed": "2026-10-12"
+    },
+    "cortes-diba": {
+      "title": "Diputació · Conjunt noucentista de Miquel Cortés, 08234-271",
+      "url": "https://patrimonicultural.diba.cat/element/conjunt-noucentista-de-miquel-cortes",
+      "accessed": "2026-10-12"
+    },
+    "jardinera-diba": {
+      "title": "Diputació · La Jardinera, 08234-100",
+      "url": "https://patrimonicultural.diba.cat/element/la-jardinera",
+      "accessed": "2026-10-12"
+    },
+    "forca-cespv": {
+      "title": "Centre d’Estudis · Delimitació i protecció de La Força, 2021",
+      "url": "https://centredestudisvilamajor.cat/wp-content/uploads/2024/12/CESPV_Informe_Forca_2021.pdf",
+      "accessed": "2026-10-12"
+    },
+    "derrocada-diba": {
+      "title": "Diputació · Can Derrocada, 08234-28",
+      "url": "https://patrimonicultural.diba.cat/element/can-derrocada",
+      "accessed": "2026-10-12"
+    },
+    "llinars-diba": {
+      "title": "Diputació · Can Llinars, 08234-40",
+      "url": "https://patrimonicultural.diba.cat/element/can-llinars",
+      "accessed": "2026-10-12"
+    },
+    "llinars-fotos": {
+      "title": "Pobles de Catalunya · Can Llinars",
+      "url": "https://www.poblesdecatalunya.cat/element.php?e=18668",
+      "accessed": "2026-10-12"
+    },
+    "gol-fotos": {
+      "title": "Pobles de Catalunya · Can Gol de la Torre",
+      "url": "https://www.poblesdecatalunya.cat/element.php?e=18639",
+      "accessed": "2026-10-12"
+    },
+    "ruta-sav": {
+      "title": "Ajuntament · Descoberta a peu, itinerari de masies, pàgines PDF 6–11",
+      "url": "https://www.santantonidevilamajor.cat/media/repository/municipi/rutes/sant_antoni_de_vilamajor_descoberta_a_peu.pdf",
+      "accessed": "2026-10-12"
+    },
+    "rectoria-diba": {
+      "title": "Diputació · La Rectoria, 08234-102",
+      "url": "https://patrimonicultural.diba.cat/element/la-rectoria-10",
+      "accessed": "2026-10-12"
+    },
+    "llobera-diba": {
+      "title": "Diputació · Can Llobera de Sant Pere, 08234-41",
+      "url": "https://patrimonicultural.diba.cat/index.php/element/can-llobera-0",
+      "accessed": "2026-10-12"
+    },
+    "ribalta-cataleg": {
+      "title": "Generalitat · Modificació fitxa 052 de Can Ribalta, acord 24/05/2016",
+      "url": "https://dtes.gencat.cat/RPUC-portal/rest/consulta/documents?documentId=284331&downloadType=inline&idioma=es",
+      "accessed": "2026-10-12"
+    },
+    "pungol-fotos": {
+      "title": "Pobles de Catalunya · Can Pungol",
+      "url": "https://www.poblesdecatalunya.cat/element.php?e=18638",
+      "accessed": "2026-10-12"
+    },
+    "perpunter-ajuntament": {
+      "title": "Ajuntament · Can Perpunter",
+      "url": "https://www.santantonidevilamajor.cat/el-municipi/turisme/llocs-dinteres/can-perpunter.html",
+      "accessed": "2026-10-12"
+    },
+    "perpunter-fotos": {
+      "title": "Pobles de Catalunya · Can Perpunter",
+      "url": "https://www.poblesdecatalunya.cat/element.php?e=18626",
+      "accessed": "2026-10-12"
+    },
+    "sauleda-fotos": {
+      "title": "Pobles de Catalunya · Can Sauleda",
+      "url": "https://www.poblesdecatalunya.cat/element.php?e=18631",
+      "accessed": "2026-10-12"
+    },
+    "cortes-muntanya-diba": {
+      "title": "Diputació · El Cortès, 08234-142",
+      "url": "https://patrimonicultural.diba.cat/element/el-cortes-0",
+      "accessed": "2026-10-12"
+    },
+    "sans-historia": {
+      "title": "Ferran Sarrià · Can Sans, 2024",
+      "url": "https://www.historiesdevilamajor.cat/can-sans-de-vilamajor/",
+      "accessed": "2026-10-12"
+    },
+    "ponassa-historia": {
+      "title": "Ferran Sarrià · Can Ponassa, 2024",
+      "url": "https://www.historiesdevilamajor.cat/historia-de-can-ponassa-de-vilamajor/",
+      "accessed": "2026-10-12"
+    },
+    "castelucho-historia": {
+      "title": "Ferran Sarrià · Els Castelucho, 2024",
+      "url": "https://www.historiesdevilamajor.cat/els-castelucho-de-vilamajor/",
+      "accessed": "2026-10-12"
+    },
+    "castelucho-bardia": {
+      "title": "Ferran Sarrià · Els Bardia i Vilamajor",
+      "url": "https://www.historiesdevilamajor.cat/els-bardia-i-vilamajor-can-castelucho-ii/",
+      "accessed": "2026-10-12"
+    },
+    "spal-fons": {
+      "title": "Diputació · Fons fotogràfic SPAL, node 64462",
+      "url": "https://patrimonicultural.diba.cat/index.php/print/pdf/node/64462",
+      "accessed": "2026-10-12"
+    }
+  },
+  "candidates": [
+    {
+      "id": "gil-miret",
+      "name": "Casa Gil Miret Rosselló",
+      "municipality": "Sant Antoni de Vilamajor",
+      "priority": "P1",
+      "assessment": "Façana molt viable; volum posterior pendent de contrast.",
+      "chronology": "1910, Manuel Joaquim Raspall. No confondre amb la urbanització Can Miret.",
+      "recognitionFeatures": [
+        "Façana estreta entre mitgeres",
+        "Balcó de forja corba",
+        "Trencadís i sòcol de maó",
+        "Llindes singulars i vitrall"
+      ],
+      "interpretiveTheme": "Estiueig i retorn dels indians; relació familiar amb l’arquitecte August Miret Baldé.",
+      "pending": [
+        "Aixecament mètric d’alçades, coberta i cares menys visibles"
+      ],
+      "sourceIds": [
+        "miret-modernisme",
+        "miret-fotos"
+      ],
+      "addressHint": "França, 22",
+      "implemented": true,
+      "visualReferences": {
+        "pageUrl": "https://www.arquitecturamodernista.cat/obres/es/sant-antoni-de-vilamajor/tots/casa-miret",
+        "imageUrls": [
+          "https://www.arquitecturamodernista.cat/fotos/normal/010171.jpeg",
+          "https://www.arquitecturamodernista.cat/fotos/normal/105797.jpeg",
+          "https://www.arquitecturamodernista.cat/fotos/normal/010169.jpeg",
+          "https://www.arquitecturamodernista.cat/fotos/normal/105796.jpeg",
+          "https://www.arquitecturamodernista.cat/fotos/normal/010170.jpeg",
+          "https://www.arquitecturamodernista.cat/fotos/normal/105795.jpeg",
+          "https://www.arquitecturamodernista.cat/fotos/normal/105794.jpeg",
+          "https://www.arquitecturamodernista.cat/fotos/normal/105798.jpeg",
+          "https://www.arquitecturamodernista.cat/fotos/normal/105799.jpeg"
+        ],
+        "inspection": "Una o més imatges inspeccionades visualment; no és una revisió de totes les façanes.",
+        "republished": false
+      },
+      "modelId": "gil-miret",
+      "implementationNotes": "Model exterior original amb planta cadastral; fitxa de fonts i capítol documental. Vegeu research/residential-models.md."
+    },
+    {
+      "id": "auferil",
+      "name": "Ca l’Auferil",
+      "municipality": "Sant Antoni de Vilamajor",
+      "priority": "P1",
+      "assessment": "Molt viable per silueta, cromatisme i façana fotografiada.",
+      "chronology": "1911–1912. Autor desconegut; la proposta de Melcior de Palau és una conjectura de Pons.",
+      "recognitionFeatures": [
+        "Torre lateral amb merlets",
+        "Arcs apuntats/parabòlics i galeria superior",
+        "Estuc groc, maó vermell i ceràmica verda",
+        "Tanca de pedra i portal de forja"
+      ],
+      "interpretiveTheme": "La torre d’estiueig com a canvi del paisatge urbà a inicis del segle XX.",
+      "pending": [
+        "Aixecament mètric d’alçades, coberta i cares menys visibles"
+      ],
+      "sourceIds": [
+        "auferil-modernisme",
+        "auferil-pons"
+      ],
+      "addressHint": "Anselm Clavé, 1 / av. Catalunya",
+      "implemented": true,
+      "visualReferences": {
+        "pageUrl": "https://www.arquitecturamodernista.cat/obres/es/sant-antoni-de-vilamajor/tots/ca-l-auferil",
+        "imageUrls": [
+          "https://www.arquitecturamodernista.cat/fotos/normal/117040.jpeg",
+          "https://www.arquitecturamodernista.cat/fotos/normal/010164.jpeg",
+          "https://www.arquitecturamodernista.cat/fotos/normal/117039.jpeg",
+          "https://www.arquitecturamodernista.cat/fotos/normal/117041.jpeg",
+          "https://www.arquitecturamodernista.cat/fotos/normal/010166.jpeg"
+        ],
+        "inspection": "Una o més imatges inspeccionades visualment; no és una revisió de totes les façanes.",
+        "republished": false
+      },
+      "modelId": "auferil",
+      "implementationNotes": "Model exterior original amb planta cadastral; fitxa de fonts i capítol documental. Vegeu research/residential-models.md."
+    },
+    {
+      "id": "bertran",
+      "name": "Can Bertran",
+      "municipality": "Sant Antoni de Vilamajor",
+      "priority": "P1",
+      "assessment": "Molt rellevant i viable per fases; conjunt complex.",
+      "chronology": "Mas anterior a la reforma. Sarrià situa la remodelació en 1910–1920 i l’atribueix a Joan Rubió i Bellver. La fotografia retolada 1912 és una referència visual, no data de finalització de tot el conjunt.",
+      "recognitionFeatures": [
+        "Cos principal de coberta basilical",
+        "Arcades i emmarcaments de maó",
+        "Torratxa diferenciada",
+        "Annexos i era"
+      ],
+      "interpretiveTheme": "De mas agrícola a residència d’estiueig. La reforma manté activitats pageses; canvi del camí de l’era mitjançant acord de 1926.",
+      "pending": [
+        "Aixecament mètric d’alçades i façanes poc visibles",
+        "Plànols o expedient per precisar la reforma i els annexos"
+      ],
+      "sourceIds": [
+        "bertran-historia",
+        "bertran-fotos",
+        "ruta-sav"
+      ],
+      "addressHint": "França, 36",
+      "implemented": true,
+      "visualReferences": {
+        "pageUrl": "https://www.historiesdevilamajor.cat/can-bertran-de-vilamajor/",
+        "imageUrls": [
+          "https://www.historiesdevilamajor.cat/wp-content/uploads/2025/10/image.png",
+          "https://www.historiesdevilamajor.cat/wp-content/uploads/2025/10/image-1.png",
+          "https://www.historiesdevilamajor.cat/wp-content/uploads/2025/10/image-2.png",
+          "https://www.historiesdevilamajor.cat/wp-content/uploads/2025/10/image-3.png",
+          "https://www.historiesdevilamajor.cat/wp-content/uploads/2025/10/image-4.png"
+        ],
+        "inspection": "Una o més imatges inspeccionades visualment; no és una revisió de totes les façanes.",
+        "republished": false
+      },
+      "modelId": "bertran"
+    },
+    {
+      "id": "cortes-forca",
+      "name": "Conjunt de Can Cortès: La Dàlia, La Tulipa i La Jardinera",
+      "municipality": "Sant Pere de Vilamajor",
+      "priority": "P1",
+      "assessment": "Molt rellevant per fer recognoscible la façana de la Força; modelar cada casa separadament.",
+      "chronology": "Façanes de principis del segle XX sobre edificacions parcialment anteriors. Diputació: noucentisme; POUM citat a la fitxa: modernisme.",
+      "recognitionFeatures": [
+        "Perfils de coronament",
+        "Motllures i decoració floral",
+        "Terrasses, jardins i murs esglaonats al pendent",
+        "La Jardinera: planta baixa i dos pisos"
+      ],
+      "interpretiveTheme": "Transformació de la Força i arquitectura residencial. La Jardinera acollí l’ajuntament entre 1940 i 1970.",
+      "pending": [
+        "Resoldre correspondència cadastral de La Tulipa abans de modelar-la",
+        "Precisar les dates de reforma de cada casa; 1930 és només un llindar visual convencional",
+        "Aixecament de les alçades i façanes menys visibles"
+      ],
+      "sourceIds": [
+        "cortes-diba",
+        "jardinera-diba",
+        "forca-cespv"
+      ],
+      "addressHint": "La Força / carrer de la Dàlia",
+      "implemented": false,
+      "locationHint": {
+        "latitude": 41.68415,
+        "longitude": 2.38879,
+        "sourceId": "cortes-diba",
+        "modelPlacementVerified": false
+      },
+      "visualReferences": {
+        "pageUrl": "https://patrimonicultural.diba.cat/element/conjunt-noucentista-de-miquel-cortes",
+        "imageUrls": [
+          "https://patrimonicultural.diba.cat/sites/default/files/styles/detall_element/public/imatges/08234/64515-foto-08234-271-1.jpg?itok=43SKVvtw",
+          "https://patrimonicultural.diba.cat/sites/default/files/styles/detall_element/public/imatges/08234/64515-foto-08234-271-2.jpg?itok=JUVPrg3z",
+          "https://patrimonicultural.diba.cat/sites/default/files/styles/detall_element/public/imatges/08234/64515-foto-08234-271-3.jpg?itok=GQjfp5vQ"
+        ],
+        "inspection": "Una o més imatges inspeccionades visualment; no és una revisió de totes les façanes.",
+        "republished": false
+      },
+      "implementationStatus": "partial",
+      "modelIds": [
+        "miquel-cortes",
+        "dalia",
+        "jardinera"
+      ],
+      "implementationNotes": "Tres cases incorporades com a models independents; no es dona tot el conjunt per completat."
+    },
+    {
+      "id": "derrocada",
+      "name": "Can Derrocada",
+      "municipality": "Sant Pere de Vilamajor",
+      "priority": "P1",
+      "assessment": "Implementat com a restitució aproximada amb etapes i limitacions explícites.",
+      "chronology": "Mas esmentat el 1220. La fitxa data el casal al segle XVII i l’arc del barri al XVIII.",
+      "recognitionFeatures": [
+        "Gran casal amb cossos annexos",
+        "Coberta principal a quatre vessants visible a la fotografia",
+        "Recinte del barri i arc d’accés",
+        "Elements defensius i capella descrits a l’inventari"
+      ],
+      "interpretiveTheme": "Centre de poder dels Roig i de la propietat rural; connexió amb el territori urbanitzat posteriorment.",
+      "pending": [
+        "Alçats mesurats i fotografies de totes les cares",
+        "Datació individual dels annexos; els llindars del visor no són dates d’obra",
+        "Fixar la planta de la capella i el portal del barri abans de modelar-los"
+      ],
+      "sourceIds": [
+        "derrocada-diba",
+        "spal-fons"
+      ],
+      "addressHint": "Av. de Sant Nonet, 2",
+      "implemented": true,
+      "locationHint": {
+        "latitude": 41.68427,
+        "longitude": 2.39151,
+        "sourceId": "derrocada-diba",
+        "modelPlacementVerified": true
+      },
+      "cadastreCheck": {
+        "referenceHint": "9452004DG4195S",
+        "matchingParts": 11,
+        "declaredYears": [
+          1890
+        ],
+        "note": "Emplaçament verificat amb ortofoto 2025; només es substitueixen les parts 7, 2, 3, 4 i 5. La data cadastral 1890 no data el casal."
+      },
+      "visualReferences": {
+        "pageUrl": "https://patrimonicultural.diba.cat/element/can-derrocada",
+        "imageUrls": [
+          "https://patrimonicultural.diba.cat/sites/default/files/styles/detall_element/public/imatges/08234/64272-foto-08234-28-2.jpg?itok=grZ_jzRZ",
+          "https://patrimonicultural.diba.cat/sites/default/files/styles/detall_element/public/imatges/08234/64272-foto-08234-28-3.jpg?itok=_zx0JuBR"
+        ],
+        "inspection": "Una o més imatges inspeccionades visualment; no és una revisió de totes les façanes.",
+        "republished": false
+      },
+      "modelId": "derrocada",
+      "implementationNotes": "Model exterior i etapes interpretades, empremtes contrastades amb ortofoto i Cadastre. Vegeu research/farmstead-models.md."
+    },
+    {
+      "id": "llinars",
+      "name": "Can Llinars / Can Sagarra",
+      "municipality": "Sant Pere de Vilamajor",
+      "priority": "P1",
+      "assessment": "Implementat com a restitució aproximada amb etapes i limitacions explícites.",
+      "chronology": "Mas explícitament documentat el 1262; classificació patrimonial XIII–XVII. Granja-Torre de Sagarra des de 1885.",
+      "recognitionFeatures": [
+        "Casal de tres nivells",
+        "Portal de dovelles i finestres de pedra",
+        "Terrassa lateral amb galeria",
+        "Rellotge de sol"
+      ],
+      "interpretiveTheme": "Agricultura, indústria làctia i literatura: Josep Maria de Sagarra i El mal caçador, 1915.",
+      "pending": [
+        "Alçats mesurats i fotografies de totes les cares",
+        "Datació individual dels annexos; els llindars del visor no són dates d’obra"
+      ],
+      "sourceIds": [
+        "llinars-diba",
+        "llinars-fotos"
+      ],
+      "addressHint": "Camí de Sant Elies",
+      "implemented": true,
+      "locationHint": {
+        "latitude": 41.69235,
+        "longitude": 2.38674,
+        "sourceId": "llinars-diba",
+        "modelPlacementVerified": true
+      },
+      "cadastreCheck": {
+        "referenceHint": "001520900DG41F",
+        "matchingParts": 1,
+        "declaredYears": [
+          1960
+        ],
+        "note": "La referència inicial 001520900DG41F correspon a un annex petit. Casal principal verificat a la part 4 de 08234A00600152; coberta de quatre vessants contrastada amb ortofoto 2025.",
+        "verifiedBuildingId": "08234A00600152",
+        "modeledParts": [
+          4,
+          2,
+          6,
+          3
+        ]
+      },
+      "visualReferences": {
+        "pageUrl": "https://patrimonicultural.diba.cat/element/can-llinars",
+        "imageUrls": [
+          "https://patrimonicultural.diba.cat/sites/default/files/styles/detall_element/public/imatges/08234/64284-foto-08234-40-1.jpg?itok=wFp7QsBU"
+        ],
+        "inspection": "Una o més imatges inspeccionades visualment; no és una revisió de totes les façanes.",
+        "republished": false
+      },
+      "modelId": "llinars",
+      "implementationNotes": "Model exterior i etapes interpretades, empremtes contrastades amb ortofoto i Cadastre. Vegeu research/farmstead-models.md."
+    },
+    {
+      "id": "gol-torre",
+      "name": "Can Gol de la Torre",
+      "municipality": "Sant Antoni de Vilamajor",
+      "priority": "P1",
+      "assessment": "Implementat com a restitució aproximada amb etapes i limitacions explícites.",
+      "chronology": "Origen defensiu medieval; no equiparar la datació de la torre amb les finestres gòtiques ni amb totes les ampliacions.",
+      "recognitionFeatures": [
+        "Silueta asimètrica amb un vessant molt prolongat",
+        "Portal de dovelles",
+        "Finestres gòtiques amb traceria",
+        "Cantoneres que mostren l’antiga torre"
+      ],
+      "interpretiveTheme": "Vigilància del camí de Cardedeu i transformació de torre en masia.",
+      "pending": [
+        "Alçats mesurats i fotografies de totes les cares",
+        "Datació individual dels annexos; els llindars del visor no són dates d’obra"
+      ],
+      "sourceIds": [
+        "gol-fotos",
+        "ruta-sav"
+      ],
+      "addressHint": "Trencall del camí d’Alfou",
+      "implemented": true,
+      "visualReferences": {
+        "pageUrl": "https://www.poblesdecatalunya.cat/element.php?e=18639",
+        "imageUrls": [
+          "https://www.poblesdecatalunya.cat/fotos/normal/130950.jpeg",
+          "https://www.poblesdecatalunya.cat/fotos/normal/130959.jpeg",
+          "https://www.poblesdecatalunya.cat/fotos/normal/130951.jpeg",
+          "https://www.poblesdecatalunya.cat/fotos/normal/130952.jpeg",
+          "https://www.poblesdecatalunya.cat/fotos/normal/130953.jpeg",
+          "https://www.poblesdecatalunya.cat/fotos/normal/130956.jpeg",
+          "https://www.poblesdecatalunya.cat/fotos/normal/130957.jpeg",
+          "https://www.poblesdecatalunya.cat/fotos/normal/130958.jpeg",
+          "https://www.poblesdecatalunya.cat/fotos/normal/130954.jpeg",
+          "https://www.poblesdecatalunya.cat/fotos/normal/130955.jpeg",
+          "https://www.poblesdecatalunya.cat/fotos/normal/130949.jpeg",
+          "https://www.poblesdecatalunya.cat/fotos/normal/131001.jpeg"
+        ],
+        "inspection": "Una o més imatges inspeccionades visualment; no és una revisió de totes les façanes.",
+        "republished": false
+      },
+      "modelId": "gol-torre",
+      "implementationNotes": "Model exterior i etapes interpretades, empremtes contrastades amb ortofoto i Cadastre. Vegeu research/farmstead-models.md."
+    },
+    {
+      "id": "rectoria",
+      "name": "La Rectoria",
+      "municipality": "Sant Pere de Vilamajor",
+      "priority": "P1",
+      "assessment": "Viable per volum i façana; cronologia antiga menys segura.",
+      "chronology": "Inventari XIV–XVII; inscripció 1639 interpretada com una rehabilitació. Origen exacte no establert.",
+      "recognitionFeatures": [
+        "Coberta a dues aigües i ràfec",
+        "Portal amb dovelles vermelles i blanques",
+        "Balcons i finestra de golfes",
+        "Escales i entorn enjardinat"
+      ],
+      "interpretiveTheme": "De casa vinculada a la parròquia a Centre d’Art: habilitació el 1987 i fundació el 1988.",
+      "pending": [
+        "Altures i pendent d’accés",
+        "Separar jardí contemporani de paisatge antic",
+        "No representar túnels o una farga com a fets demostrats"
+      ],
+      "sourceIds": [
+        "rectoria-diba"
+      ],
+      "addressHint": "Av. Quatre Camins, s/n",
+      "implemented": false,
+      "locationHint": {
+        "latitude": 41.68312,
+        "longitude": 2.38871,
+        "sourceId": "rectoria-diba",
+        "modelPlacementVerified": false
+      },
+      "visualReferences": {
+        "pageUrl": "https://patrimonicultural.diba.cat/element/la-rectoria-10",
+        "imageUrls": [
+          "https://patrimonicultural.diba.cat/sites/default/files/styles/detall_element/public/imatges/08234/64346-foto-08234-102-1.jpg?itok=TOpeRIer",
+          "https://patrimonicultural.diba.cat/sites/default/files/styles/detall_element/public/imatges/08234/64346-foto-08234-102-2.jpg?itok=shfTkZTy",
+          "https://patrimonicultural.diba.cat/sites/default/files/styles/detall_element/public/imatges/08234/64346-foto-08234-102-3.jpg?itok=LtZ1PLFT"
+        ],
+        "inspection": "Una o més imatges inspeccionades visualment; no és una revisió de totes les façanes.",
+        "republished": false
+      }
+    },
+    {
+      "id": "perpunter",
+      "name": "Can Perpunter / Casa de la Vila",
+      "municipality": "Sant Antoni de Vilamajor",
+      "priority": "P2",
+      "assessment": "Bona viabilitat i alt valor narratiu; primer candidat de la segona fase.",
+      "chronology": "Fesomia vinculada al segle XVII; referència municipal de 1647; rehabilitació com ajuntament inaugurada l’agost de 1988.",
+      "recognitionFeatures": [
+        "Coberta amb carener paral·lel a façana",
+        "Portal d’arc rebaixat",
+        "Obertures emmarcades de pedra",
+        "Argolles de la ferreria al mur de la plaça"
+      ],
+      "interpretiveTheme": "Ferrers, transport pel camí i govern municipal.",
+      "pending": [
+        "Comparar fotografies de cap a 1897 i actuals",
+        "Separar la rehabilitació de 1988",
+        "Resoldre discrepància de nom de plaça entre fonts"
+      ],
+      "sourceIds": [
+        "perpunter-ajuntament",
+        "perpunter-fotos"
+      ],
+      "addressHint": "Plaça de la Vila, 5; web municipal: plaça Montseny, 5",
+      "implemented": false,
+      "visualReferences": {
+        "inspection": "Fonts amb fotografies identificades; inspecció visual detallada pendent.",
+        "republished": false
+      }
+    },
+    {
+      "id": "sauleda",
+      "name": "Can Sauleda",
+      "municipality": "Sant Antoni de Vilamajor",
+      "priority": "P2",
+      "assessment": "Viable i útil per explicar la integració d’una masia dins el nucli.",
+      "chronology": "Conjunt de fases diferents; elements gòtics i casal dels segles XVI–XVII; torratxa de començament del XX.",
+      "recognitionFeatures": [
+        "Finestra gòtica amb traceria",
+        "Portal de mig punt",
+        "Barri tancat i cos annex",
+        "Torratxa posterior amb galeria i maó"
+      ],
+      "interpretiveTheme": "Continuïtat del mas i creixement urbà al seu voltant.",
+      "pending": [
+        "Datar la torratxa sense projectar-la a l’edat moderna",
+        "Planta i orientació de cada cos"
+      ],
+      "sourceIds": [
+        "sauleda-fotos"
+      ],
+      "addressHint": "Av. Catalunya / Sant Antoni",
+      "implemented": false,
+      "visualReferences": {
+        "inspection": "Fonts amb fotografies identificades; inspecció visual detallada pendent.",
+        "republished": false
+      }
+    },
+    {
+      "id": "llobera",
+      "name": "Can Llobera",
+      "municipality": "Sant Pere de Vilamajor",
+      "priority": "P2",
+      "assessment": "Documentació històrica bona; encaix amb la geometria local pendent.",
+      "chronology": "Topònim el 1085, referència explícita al mas el 1262; edifici classificat al XVIII.",
+      "recognitionFeatures": [
+        "Cossos afegits",
+        "Cos antic de planta baixa i pis",
+        "Portal adovellat d’arc rebaixat",
+        "Emmarcaments de pedra"
+      ],
+      "interpretiveTheme": "Persistència de les nissagues rurals; estudi Els Llobera a la història de Vilamajor.",
+      "pending": [
+        "Referència de la fitxa no trobada entre els buildingId del paquet actual",
+        "Verificar empremta per ubicació i fotografies",
+        "No extrapolar el model conservat fins al 1085"
+      ],
+      "sourceIds": [
+        "llobera-diba"
+      ],
+      "addressHint": "Carrer de Can Llobera, s/n",
+      "implemented": false,
+      "locationHint": {
+        "latitude": 41.68827,
+        "longitude": 2.39278,
+        "sourceId": "llobera-diba",
+        "modelPlacementVerified": false
+      },
+      "cadastreCheck": {
+        "referenceHint": "002020300DG41F",
+        "matchingParts": 0,
+        "declaredYears": [],
+        "note": "Coincidència d’identificador, no validació espacial ni data de construcció patrimonial."
+      },
+      "visualReferences": {
+        "inspection": "Fonts amb fotografies identificades; inspecció visual detallada pendent.",
+        "republished": false
+      }
+    },
+    {
+      "id": "ribalta",
+      "name": "Can Ribalta de Sant Antoni",
+      "municipality": "Sant Antoni de Vilamajor",
+      "priority": "P2",
+      "assessment": "Rellevant; cal completar el dossier gràfic abans del model detallat.",
+      "chronology": "La guia municipal situa l’edifici al segle XIX; la fitxa 052 del catàleg té una modificació de 2016 sobre antigues corts.",
+      "recognitionFeatures": [
+        "Cos de masia",
+        "Dependències agrícoles i corts a separar"
+      ],
+      "interpretiveTheme": "Organització de grans propietats i masos dependents.",
+      "pending": [
+        "Consultar íntegrament fitxa 052 i plànols",
+        "Fotografies de totes les façanes",
+        "No confondre amb Can Ribalta de Sant Pere"
+      ],
+      "sourceIds": [
+        "ruta-sav",
+        "ribalta-cataleg"
+      ],
+      "addressHint": "Barri de la Freixeneda / camí d’Alfou",
+      "implemented": false,
+      "visualReferences": {
+        "inspection": "Fonts amb fotografies identificades; inspecció visual detallada pendent.",
+        "republished": false
+      }
+    },
+    {
+      "id": "pungol",
+      "name": "Can Pungol",
+      "municipality": "Sant Antoni de Vilamajor",
+      "priority": "P2",
+      "assessment": "Viable per façana; cal separar ampliacions.",
+      "chronology": "Inscripció 1587 a la finestra central; no data automàticament cada cos del conjunt.",
+      "recognitionFeatures": [
+        "Planta baixa, pis i golfes",
+        "Portal de mig punt",
+        "Finestrals de pedra amb llindes motllurades",
+        "Annexos de diverses èpoques"
+      ],
+      "interpretiveTheme": "Masies i transformacions de la propietat rural.",
+      "pending": [
+        "Datar ampliacions",
+        "Mesures de coberta i façanes secundàries"
+      ],
+      "sourceIds": [
+        "pungol-fotos",
+        "ruta-sav"
+      ],
+      "addressHint": "Trencall del camí d’Alfou",
+      "implemented": false,
+      "visualReferences": {
+        "inspection": "Fonts amb fotografies identificades; inspecció visual detallada pendent.",
+        "republished": false
+      }
+    },
+    {
+      "id": "cortes-muntanya",
+      "name": "El Cortès, masia de muntanya",
+      "municipality": "Sant Pere de Vilamajor",
+      "priority": "P2",
+      "assessment": "Bona descripció arquitectònica; amplia la representació cap al Montseny.",
+      "chronology": "Inventari XIV–XVI; llinda de 1766 en un cos afegit.",
+      "recognitionFeatures": [
+        "Portal de gres amb escut",
+        "Finestra conopial lobulada",
+        "Cos perpendicular de tres nivells",
+        "Pallisses i era"
+      ],
+      "interpretiveTheme": "Vida de muntanya i vinya abans de la fil·loxera.",
+      "pending": [
+        "Recollir i inspeccionar més fotografies",
+        "Datar annexos; la llegenda de Sant Elies no és un alçat documentat",
+        "No confondre amb el conjunt urbà de Can Cortès"
+      ],
+      "sourceIds": [
+        "cortes-muntanya-diba",
+        "spal-fons"
+      ],
+      "addressHint": "Veïnat de Muntanya",
+      "implemented": false,
+      "locationHint": {
+        "latitude": 41.73076,
+        "longitude": 2.36971,
+        "sourceId": "cortes-muntanya-diba",
+        "modelPlacementVerified": false
+      },
+      "cadastreCheck": {
+        "referenceHint": "002306800DG42B",
+        "matchingParts": 4,
+        "declaredYears": [
+          1890
+        ],
+        "note": "Coincidència d’identificador, no validació espacial ni data de construcció patrimonial."
+      },
+      "visualReferences": {
+        "inspection": "Fonts amb fotografies identificades; inspecció visual detallada pendent.",
+        "republished": false
+      }
+    },
+    {
+      "id": "sans",
+      "name": "Can Sans, desapareguda",
+      "municipality": "Sant Antoni de Vilamajor",
+      "priority": "P3",
+      "assessment": "Apta potencialment per reconstrucció històrica; no per afegir al present.",
+      "chronology": "Compra del terreny el 1913. Venda a promotora cap a 2003–2004 i substitució per habitatges segons Sarrià; data exacta d’enderroc pendent.",
+      "recognitionFeatures": [
+        "Casa d’estiueig austera",
+        "Gran jardí amb castanyers d’índies i parterres"
+      ],
+      "interpretiveTheme": "La Colònia i la desaparició del patrimoni residencial.",
+      "pending": [
+        "Georeferenciar la parcel·la antiga",
+        "Localitzar expedient d’enderroc i més vistes",
+        "No qualificar-la de modernista: el relat indica una elecció expressament austera"
+      ],
+      "sourceIds": [
+        "sans-historia"
+      ],
+      "addressHint": "Antic camí de sortida cap a Sant Pere",
+      "implemented": false,
+      "visualReferences": {
+        "inspection": "Fonts amb fotografies identificades; inspecció visual detallada pendent.",
+        "republished": false
+      }
+    },
+    {
+      "id": "ponassa",
+      "name": "Can Ponassa",
+      "municipality": "Sant Antoni de Vilamajor",
+      "priority": "P3",
+      "assessment": "Alt interès social; dues fases i diversos emplaçaments a resoldre.",
+      "chronology": "Botiga des de 1899; substitució de la casa del carrer Vell, 2, el 1935–1936, amb nou edifici el 1936.",
+      "recognitionFeatures": [
+        "Façana comercial i aparadors",
+        "Casa antiga i substitució de preguerra"
+      ],
+      "interpretiveTheme": "Comerç quotidià, proveïment i vida de poble.",
+      "pending": [
+        "Identificar les façanes de cada fotografia",
+        "No confondre la casa d’origen al carrer de Dalt, 8, la botiga i el Magatzem del carrer Vell, 6",
+        "Planta de les diferents fases"
+      ],
+      "sourceIds": [
+        "ponassa-historia"
+      ],
+      "addressHint": "Carrer Vell, 2, per a la botiga; altres adreces al relat",
+      "implemented": false,
+      "visualReferences": {
+        "inspection": "Fonts amb fotografies identificades; inspecció visual detallada pendent.",
+        "republished": false
+      }
+    },
+    {
+      "id": "castelucho",
+      "name": "Can Castelucho / Can Font",
+      "municipality": "Sant Antoni de Vilamajor",
+      "priority": "P3",
+      "assessment": "Relat cultural notable; geometria i fases per contrastar.",
+      "chronology": "Presència familiar fotografiada des de 1910 segons l’article; compra sense data exacta acreditada.",
+      "recognitionFeatures": [
+        "Parets blanques i emmarcaments blaus descrits al relat",
+        "Terrassa porxada i jardí"
+      ],
+      "interpretiveTheme": "Xarxes artístiques entre Vilamajor i París; història familiar i cultural.",
+      "pending": [
+        "Verificar planta, emplaçament i evolució de façanes",
+        "Distingir fonts escrites, memòria oral i conjectures",
+        "No afirmar una estada de Picasso ni un origen de caserna medieval com a fets provats"
+      ],
+      "sourceIds": [
+        "castelucho-historia",
+        "castelucho-bardia"
+      ],
+      "addressHint": "Inici del camí de Sant Lleïr, costat esquerre anant des de Sant Antoni",
+      "implemented": false,
+      "visualReferences": {
+        "inspection": "Fonts amb fotografies identificades; inspecció visual detallada pendent.",
+        "republished": false
+      }
+    }
+  ]
+}
