@@ -241,6 +241,12 @@ La lectura utilitza el panell contextual blanc, ombra ambiental i cantonada de p
 
 L’inspector cadastral mostra atributs originals, plantes representades i estimació d’alçada. La fitxa patrimonial mostra precisió, fonts i «Què sabem i què interpretem?». Les limitacions s’expliquen amb text, i els enllaços de fonts es mantenen visibles.
 
+El peu del mapa inclou el crèdit discret «GitHub · jordeu», amb enllaç al repositori,
+focus visible i una zona clicable de 24 px d’alçada. Es conserva en el visor
+interactiu a pantalla completa i s’oculta durant el documental. Les atribucions
+cartogràfiques continuen visibles en tots dos modes. «Fonts i dades» identifica
+l’autor, la llicència MIT del codi i les condicions dels materials de tercers.
+
 ### Inputs / Fields
 
 La cerca de llocs combina icona SVG i camp amb etiqueta accessible. Té fons clar, vora definida i focus de grup amb contorn (3px) separat (2px). En mòbil el text de l’entrada puja a (16px). La coincidència ignora majúscules i accents, i mostra «No hem trobat cap lloc. Prova un altre nom.» quan cal. Triar un lloc actualitza el títol, tanca el panell i enfoca el mapa.

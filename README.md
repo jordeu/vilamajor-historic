@@ -5,6 +5,11 @@ Cronologia 3D en català sobre Sant Pere i Sant Antoni de Vilamajor, amb **relle
 La procedència verificable del codi, les dades i les dependències es recull a
 [l’inventari de procedència](research/source-provenance.md).
 
+Creat per [Jordi Deu-Pons](https://github.com/jordeu).
+El codi propi i la documentació original es distribueixen amb [llicència MIT](LICENSE).
+La cartografia, les dades, les imatges i les dependències conserven les seves
+[condicions i atribucions](THIRD_PARTY_NOTICES.md).
+
 ## Executar
 
 ```sh
@@ -16,6 +21,36 @@ npm test
 ```
 
 Desenvolupament: http://localhost:5173. La compilació estàtica queda a `dist/` i inclou les dades; no necessita un servidor de dades, comptes ni credencials. `base: './'` permet servir-la en un subdirectori. Les tipografies es carreguen de Google Fonts, amb alternatives locals si no hi ha connexió.
+
+## Publicar a GitHub Pages
+
+El workflow `.github/workflows/pages.yml` comprova les PR amb `npm test` i una
+compilació amb base `/vilamajor-historic/`. En arribar a `main`, també publica
+el contingut de `dist/` a GitHub Pages. Les PR no es despleguen.
+
+Per a la primera publicació amb GitHub Free:
+
+1. Fer públic el repositori a **Settings → General → Change repository visibility**.
+2. A **Settings → Pages → Build and deployment**, seleccionar **GitHub Actions**.
+3. Incorporar el workflow a `main`. Si ja hi és, executar **Actions → Build and
+   deploy GitHub Pages → Run workflow** sobre `main`.
+
+L’adreça prevista és `https://jordeu.github.io/vilamajor-historic/`.
+No cal regenerar la cartografia per publicar: les dades necessàries ja són al
+repositori. El workflow no modifica la visibilitat del repositori.
+
+Per comprovar localment la mateixa base que es publicarà:
+
+```sh
+npm run build -- --base=/vilamajor-historic/
+npm run preview -- --base=/vilamajor-historic/
+```
+
+El visor de prova s’obre a `http://localhost:4173/vilamajor-historic/`.
+Amb aquest servidor actiu, `node tools/pages-browser-check.mjs` comprova la
+càrrega de dades sota el subdirectori, els crèdits en mòbil i escriptori, els
+modes de pantalla completa i els avisos de llicència distribuïts. Requereix
+Chromium de Playwright instal·lat (`npx playwright install chromium`).
 
 ## Dades incorporades
 

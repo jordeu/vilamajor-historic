@@ -29,7 +29,7 @@ export const interfaceTemplate=`
     <div class="free-controls surface" role="group" aria-label="Navegació del mapa"><button id="move-mode" aria-pressed="true" disabled>${icon('move')}<span>Desplaçar</span></button><button id="rotate-mode" aria-pressed="false" disabled>${icon('rotate')}<span>Girar</span></button></div>
     <button id="orbit" class="surface" aria-pressed="false" disabled>${icon('rotate')}<span>Vol circular</span></button>
   </div>
-  <div class="map-bottom"><span id="map-status" role="status" class="map-ui">Preparant dades geogràfiques…</span><span class="model-note"><a href="https://www.icgc.cat/" target="_blank" rel="noopener noreferrer">© ICGC</a> · <a href="https://www.catastro.hacienda.gob.es/webinspire/index.html" target="_blank" rel="noopener noreferrer">© D. G. del Catastro</a></span></div>
+  <div class="map-bottom"><span id="map-status" role="status" class="map-ui">Preparant dades geogràfiques…</span><span class="model-note"><a href="https://www.icgc.cat/" target="_blank" rel="noopener noreferrer">© ICGC</a> · <a href="https://www.catastro.hacienda.gob.es/webinspire/index.html" target="_blank" rel="noopener noreferrer">© D. G. del Catastro</a><span class="project-credit map-ui"> · <a href="https://github.com/jordeu/vilamajor-historic" target="_blank" rel="noopener noreferrer" aria-label="Projecte de jordeu a GitHub (s’obre en una pestanya nova)">GitHub · jordeu</a></span></span></div>
 
   <section id="places-panel" class="map-panel map-ui" hidden role="dialog" aria-labelledby="places-title" tabindex="-1">
     <div class="panel-heading"><h2 id="places-title">On vols anar?</h2>${close('Tancar llocs')}</div>
