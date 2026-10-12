@@ -1,0 +1,518 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-12T05:29:41.593365+00:00",
+  "title": "Design System: Vilamajor a través del temps",
+  "extensions": {
+    "colorMeta": {
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "tonalRamp": [
+          "oklch(15.0% 0.0470 255.4)",
+          "oklch(26.4% 0.0470 255.4)",
+          "oklch(37.9% 0.0470 255.4)",
+          "oklch(49.3% 0.0470 255.4)",
+          "oklch(60.7% 0.0470 255.4)",
+          "oklch(72.1% 0.0470 255.4)",
+          "oklch(83.6% 0.0470 255.4)",
+          "oklch(95.0% 0.0470 255.4)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted",
+        "tonalRamp": [
+          "oklch(15.0% 0.0424 256.1)",
+          "oklch(26.4% 0.0424 256.1)",
+          "oklch(37.9% 0.0424 256.1)",
+          "oklch(49.3% 0.0424 256.1)",
+          "oklch(60.7% 0.0424 256.1)",
+          "oklch(72.1% 0.0424 256.1)",
+          "oklch(83.6% 0.0424 256.1)",
+          "oklch(95.0% 0.0424 256.1)"
+        ]
+      },
+      "blue": {
+        "role": "primary",
+        "displayName": "Blue",
+        "tonalRamp": [
+          "oklch(15.0% 0.1638 261.2)",
+          "oklch(26.4% 0.1638 261.2)",
+          "oklch(37.9% 0.1638 261.2)",
+          "oklch(49.3% 0.1638 261.2)",
+          "oklch(60.7% 0.1638 261.2)",
+          "oklch(72.1% 0.1638 261.2)",
+          "oklch(83.6% 0.1638 261.2)",
+          "oklch(95.0% 0.1638 261.2)"
+        ]
+      },
+      "blue-hover": {
+        "role": "primary",
+        "displayName": "Blue hover",
+        "tonalRamp": [
+          "oklch(15.0% 0.1351 260.6)",
+          "oklch(26.4% 0.1351 260.6)",
+          "oklch(37.9% 0.1351 260.6)",
+          "oklch(49.3% 0.1351 260.6)",
+          "oklch(60.7% 0.1351 260.6)",
+          "oklch(72.1% 0.1351 260.6)",
+          "oklch(83.6% 0.1351 260.6)",
+          "oklch(95.0% 0.1351 260.6)"
+        ]
+      },
+      "navy": {
+        "role": "primary",
+        "displayName": "Navy",
+        "tonalRamp": [
+          "oklch(15.0% 0.0832 256.2)",
+          "oklch(26.4% 0.0832 256.2)",
+          "oklch(37.9% 0.0832 256.2)",
+          "oklch(49.3% 0.0832 256.2)",
+          "oklch(60.7% 0.0832 256.2)",
+          "oklch(72.1% 0.0832 256.2)",
+          "oklch(83.6% 0.0832 256.2)",
+          "oklch(95.0% 0.0832 256.2)"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Surface",
+        "tonalRamp": [
+          "oklch(15.0% 0.0000 89.9)",
+          "oklch(26.4% 0.0000 89.9)",
+          "oklch(37.9% 0.0000 89.9)",
+          "oklch(49.3% 0.0000 89.9)",
+          "oklch(60.7% 0.0000 89.9)",
+          "oklch(72.1% 0.0000 89.9)",
+          "oklch(83.6% 0.0000 89.9)",
+          "oklch(95.0% 0.0000 89.9)"
+        ]
+      },
+      "tint": {
+        "role": "primary",
+        "displayName": "Tint",
+        "tonalRamp": [
+          "oklch(15.0% 0.0161 262.8)",
+          "oklch(26.4% 0.0161 262.8)",
+          "oklch(37.9% 0.0161 262.8)",
+          "oklch(49.3% 0.0161 262.8)",
+          "oklch(60.7% 0.0161 262.8)",
+          "oklch(72.1% 0.0161 262.8)",
+          "oklch(83.6% 0.0161 262.8)",
+          "oklch(95.0% 0.0161 262.8)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Line",
+        "tonalRamp": [
+          "oklch(15.0% 0.0161 253.9)",
+          "oklch(26.4% 0.0161 253.9)",
+          "oklch(37.9% 0.0161 253.9)",
+          "oklch(49.3% 0.0161 253.9)",
+          "oklch(60.7% 0.0161 253.9)",
+          "oklch(72.1% 0.0161 253.9)",
+          "oklch(83.6% 0.0161 253.9)",
+          "oklch(95.0% 0.0161 253.9)"
+        ]
+      },
+      "focus": {
+        "role": "primary",
+        "displayName": "Focus",
+        "tonalRamp": [
+          "oklch(15.0% 0.1863 261.9)",
+          "oklch(26.4% 0.1863 261.9)",
+          "oklch(37.9% 0.1863 261.9)",
+          "oklch(49.3% 0.1863 261.9)",
+          "oklch(60.7% 0.1863 261.9)",
+          "oklch(72.1% 0.1863 261.9)",
+          "oklch(83.6% 0.1863 261.9)",
+          "oklch(95.0% 0.1863 261.9)"
+        ]
+      },
+      "background": {
+        "role": "neutral",
+        "displayName": "Background",
+        "tonalRamp": [
+          "oklch(15.0% 0.0097 252.8)",
+          "oklch(26.4% 0.0097 252.8)",
+          "oklch(37.9% 0.0097 252.8)",
+          "oklch(49.3% 0.0097 252.8)",
+          "oklch(60.7% 0.0097 252.8)",
+          "oklch(72.1% 0.0097 252.8)",
+          "oklch(83.6% 0.0097 252.8)",
+          "oklch(95.0% 0.0097 252.8)"
+        ]
+      },
+      "input-background": {
+        "role": "neutral",
+        "displayName": "Input background",
+        "tonalRamp": [
+          "oklch(15.0% 0.0045 258.3)",
+          "oklch(26.4% 0.0045 258.3)",
+          "oklch(37.9% 0.0045 258.3)",
+          "oklch(49.3% 0.0045 258.3)",
+          "oklch(60.7% 0.0045 258.3)",
+          "oklch(72.1% 0.0045 258.3)",
+          "oklch(83.6% 0.0045 258.3)",
+          "oklch(95.0% 0.0045 258.3)"
+        ]
+      },
+      "input-border": {
+        "role": "neutral",
+        "displayName": "Input border",
+        "tonalRamp": [
+          "oklch(15.0% 0.0313 254.3)",
+          "oklch(26.4% 0.0313 254.3)",
+          "oklch(37.9% 0.0313 254.3)",
+          "oklch(49.3% 0.0313 254.3)",
+          "oklch(60.7% 0.0313 254.3)",
+          "oklch(72.1% 0.0313 254.3)",
+          "oklch(83.6% 0.0313 254.3)",
+          "oklch(95.0% 0.0313 254.3)"
+        ]
+      },
+      "active": {
+        "role": "primary",
+        "displayName": "Active",
+        "tonalRamp": [
+          "oklch(15.0% 0.0298 262.5)",
+          "oklch(26.4% 0.0298 262.5)",
+          "oklch(37.9% 0.0298 262.5)",
+          "oklch(49.3% 0.0298 262.5)",
+          "oklch(60.7% 0.0298 262.5)",
+          "oklch(72.1% 0.0298 262.5)",
+          "oklch(83.6% 0.0298 262.5)",
+          "oklch(95.0% 0.0298 262.5)"
+        ]
+      },
+      "primary-active": {
+        "role": "primary",
+        "displayName": "Primary active",
+        "tonalRamp": [
+          "oklch(15.0% 0.1114 260.8)",
+          "oklch(26.4% 0.1114 260.8)",
+          "oklch(37.9% 0.1114 260.8)",
+          "oklch(49.3% 0.1114 260.8)",
+          "oklch(60.7% 0.1114 260.8)",
+          "oklch(72.1% 0.1114 260.8)",
+          "oklch(83.6% 0.1114 260.8)",
+          "oklch(95.0% 0.1114 260.8)"
+        ]
+      },
+      "header-text": {
+        "role": "neutral",
+        "displayName": "Header text",
+        "tonalRamp": [
+          "oklch(15.0% 0.0237 262.1)",
+          "oklch(26.4% 0.0237 262.1)",
+          "oklch(37.9% 0.0237 262.1)",
+          "oklch(49.3% 0.0237 262.1)",
+          "oklch(60.7% 0.0237 262.1)",
+          "oklch(72.1% 0.0237 262.1)",
+          "oklch(83.6% 0.0237 262.1)",
+          "oklch(95.0% 0.0237 262.1)"
+        ]
+      },
+      "header-hover": {
+        "role": "primary",
+        "displayName": "Header hover",
+        "tonalRamp": [
+          "oklch(15.0% 0.0868 256.4)",
+          "oklch(26.4% 0.0868 256.4)",
+          "oklch(37.9% 0.0868 256.4)",
+          "oklch(49.3% 0.0868 256.4)",
+          "oklch(60.7% 0.0868 256.4)",
+          "oklch(72.1% 0.0868 256.4)",
+          "oklch(83.6% 0.0868 256.4)",
+          "oklch(95.0% 0.0868 256.4)"
+        ]
+      },
+      "evidence-background": {
+        "role": "secondary",
+        "displayName": "Evidence background",
+        "tonalRamp": [
+          "oklch(15.0% 0.0119 170.3)",
+          "oklch(26.4% 0.0119 170.3)",
+          "oklch(37.9% 0.0119 170.3)",
+          "oklch(49.3% 0.0119 170.3)",
+          "oklch(60.7% 0.0119 170.3)",
+          "oklch(72.1% 0.0119 170.3)",
+          "oklch(83.6% 0.0119 170.3)",
+          "oklch(95.0% 0.0119 170.3)"
+        ]
+      },
+      "evidence-text": {
+        "role": "secondary",
+        "displayName": "Evidence text",
+        "tonalRamp": [
+          "oklch(15.0% 0.0571 168.3)",
+          "oklch(26.4% 0.0571 168.3)",
+          "oklch(37.9% 0.0571 168.3)",
+          "oklch(49.3% 0.0571 168.3)",
+          "oklch(60.7% 0.0571 168.3)",
+          "oklch(72.1% 0.0571 168.3)",
+          "oklch(83.6% 0.0571 168.3)",
+          "oklch(95.0% 0.0571 168.3)"
+        ]
+      },
+      "hypothesis-background": {
+        "role": "secondary",
+        "displayName": "Hypothesis background",
+        "tonalRamp": [
+          "oklch(15.0% 0.0294 80.7)",
+          "oklch(26.4% 0.0294 80.7)",
+          "oklch(37.9% 0.0294 80.7)",
+          "oklch(49.3% 0.0294 80.7)",
+          "oklch(60.7% 0.0294 80.7)",
+          "oklch(72.1% 0.0294 80.7)",
+          "oklch(83.6% 0.0294 80.7)",
+          "oklch(95.0% 0.0294 80.7)"
+        ]
+      },
+      "hypothesis-text": {
+        "role": "secondary",
+        "displayName": "Hypothesis text",
+        "tonalRamp": [
+          "oklch(15.0% 0.0878 70.9)",
+          "oklch(26.4% 0.0878 70.9)",
+          "oklch(37.9% 0.0878 70.9)",
+          "oklch(49.3% 0.0878 70.9)",
+          "oklch(60.7% 0.0878 70.9)",
+          "oklch(72.1% 0.0878 70.9)",
+          "oklch(83.6% 0.0878 70.9)",
+          "oklch(95.0% 0.0878 70.9)"
+        ]
+      },
+      "film-background": {
+        "role": "neutral",
+        "displayName": "Film background",
+        "tonalRamp": [
+          "oklch(15.0% 0.0471 256.6)",
+          "oklch(26.4% 0.0471 256.6)",
+          "oklch(37.9% 0.0471 256.6)",
+          "oklch(49.3% 0.0471 256.6)",
+          "oklch(60.7% 0.0471 256.6)",
+          "oklch(72.1% 0.0471 256.6)",
+          "oklch(83.6% 0.0471 256.6)",
+          "oklch(95.0% 0.0471 256.6)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Any documental",
+        "purpose": "Any destacat a pantalla completa."
+      },
+      "headline": {
+        "displayName": "Fita històrica",
+        "purpose": "Títol del relat obert."
+      },
+      "title": {
+        "displayName": "Títol de panell",
+        "purpose": "Capçalera del panell contextual."
+      },
+      "body": {
+        "displayName": "Lectura",
+        "purpose": "Explicacions sobre superfícies blanques."
+      },
+      "label": {
+        "displayName": "Control",
+        "purpose": "Navegació i accions."
+      },
+      "year": {
+        "displayName": "Any interactiu",
+        "purpose": "Any actual a la cronologia, amb xifres tabulars."
+      }
+    },
+    "shadows": [
+      {
+        "name": "surface",
+        "value": "0 4px 16px #102a4926",
+        "purpose": "Eines flotants sobre el mapa."
+      },
+      {
+        "name": "panel",
+        "value": "0 10px 32px #11294b26",
+        "purpose": "Lectura contextual."
+      },
+      {
+        "name": "map-label",
+        "value": "0 3px 12px #142c4726",
+        "purpose": "Noms geogràfics."
+      },
+      {
+        "name": "selected-layer",
+        "value": "0 2px 5px #142c4714",
+        "purpose": "Segment de cartografia seleccionat."
+      },
+      {
+        "name": "timeline-thumb",
+        "value": "0 1px 5px #13316355",
+        "purpose": "Cursor circular de l’any."
+      }
+    ],
+    "motion": [
+      {
+        "name": "control-color",
+        "value": "background-color .16s, color .16s",
+        "purpose": "Resposta dels controls; suprimida amb moviment reduït."
+      },
+      {
+        "name": "panel-enter",
+        "value": ".2s cubic-bezier(.16,1,.3,1); translateY(8px) to translateY(0)",
+        "purpose": "Entrada del panell, només amb prefers-reduced-motion: no-preference."
+      },
+      {
+        "name": "loading",
+        "value": "1.3s ease-in-out infinite alternate",
+        "purpose": "Indicador de càrrega; sense animació amb moviment reduït."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "compact-width",
+        "value": "900px"
+      },
+      {
+        "name": "mobile-width",
+        "value": "640px"
+      },
+      {
+        "name": "narrow-width",
+        "value": "360px"
+      },
+      {
+        "name": "short-height (max-height)",
+        "value": "540px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Acció principal",
+      "kind": "button",
+      "description": "Entrada única al viatge o exploració del lloc de la fita.",
+      "html": "<button class=\"ds-primary\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m8 5 11 7-11 7V5Z\"/></svg>Viatge guiat</button>",
+      "css": ".ds-primary{font-family:'DM Sans',sans-serif;font-size:13px;font-weight:500;min-height:44px;border:0;border-radius:var(--radius,8px);display:inline-flex;align-items:center;justify-content:center;gap:8px;cursor:pointer;transition:background-color .16s,color .16s;font-weight:600;padding:0 18px;background:var(--blue,#2257b8);color:var(--surface,#fff)}.ds-primary:hover{background:var(--blue-hover,#17438f)}.ds-primary:active{background:#123470}.ds-primary:focus-visible{outline:3px solid var(--focus,#326de0);outline-offset:3px;}.ds-primary:disabled{opacity:.4;cursor:default}@media(prefers-reduced-motion:reduce){button,input{transition:none!important;animation:none!important}}",
+      "refersTo": "button-primary"
+    },
+    {
+      "name": "Acció secundària",
+      "kind": "button",
+      "description": "Enquadrament general dins de la llista de llocs.",
+      "html": "<button class=\"ds-secondary\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M8 3H3v5m13-5h5v5M3 16v5h5m13-5v5h-5\"/><circle cx=\"12\" cy=\"12\" r=\"3\"/></svg>Veure tot el territori</button>",
+      "css": ".ds-secondary{font-family:'DM Sans',sans-serif;font-size:13px;font-weight:500;min-height:44px;border:0;border-radius:var(--radius,8px);display:inline-flex;align-items:center;justify-content:center;gap:8px;cursor:pointer;transition:background-color .16s,color .16s;padding:0 12px;width:100%;background:var(--tint,#eaf0fb);color:var(--blue-hover,#17438f)}.ds-secondary:hover{background:var(--tint,#eaf0fb);color:var(--blue-hover,#17438f)}.ds-secondary:active{background:#d9e4f8}.ds-secondary:focus-visible{outline:3px solid var(--focus,#326de0);outline-offset:3px;}@media(prefers-reduced-motion:reduce){button,input{transition:none!important;animation:none!important}}",
+      "refersTo": "button-secondary"
+    },
+    {
+      "name": "Botó d’icona",
+      "kind": "button",
+      "description": "Tancament accessible amb àrea quadrada.",
+      "html": "<button class=\"ds-icon-button\" aria-label=\"Tancar panell\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m6 6 12 12M6 18 18 6\"/></svg></button>",
+      "css": ".ds-icon-button{font-family:'DM Sans',sans-serif;font-size:13px;font-weight:500;min-height:44px;border:0;border-radius:var(--radius,8px);display:inline-flex;align-items:center;justify-content:center;gap:8px;cursor:pointer;transition:background-color .16s,color .16s;width:44px;height:44px;padding:0;background:transparent;color:var(--muted,#53647b)}.ds-icon-button:hover{background:var(--tint,#eaf0fb);color:var(--blue-hover,#17438f)}.ds-icon-button:active{background:#d9e4f8}.ds-icon-button:focus-visible{outline:3px solid var(--focus,#326de0);outline-offset:3px;}@media(prefers-reduced-motion:reduce){button,input{transition:none!important;animation:none!important}}",
+      "refersTo": "icon-button"
+    },
+    {
+      "name": "Cerca de llocs",
+      "kind": "input",
+      "description": "Cerca amb nom accessible, focus de grup i mida mòbil llegible.",
+      "html": "<label class=\"ds-search\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"10.5\" cy=\"10.5\" r=\"6.5\"/><path d=\"m16 16 5 5\"/></svg><input aria-label=\"Cercar un lloc\" type=\"search\" placeholder=\"Cerca un poble o una urbanització\"></label>",
+      "css": ".ds-search{display:flex;align-items:center;gap:10px;border:1px solid #bccbde;border-radius:var(--radius,8px);padding:0 12px;background:#f8fafd;color:var(--muted,#53647b);min-height:46px}.ds-search svg{flex:none}.ds-search input{font:13px \"DM Sans\",sans-serif;color:var(--ink,#17283e);min-width:0;width:100%;padding:12px 0;border:0;outline:none;background:none;caret-color:var(--blue,#2257b8)}.ds-search input::placeholder{color:#60718a;opacity:1}.ds-search:focus-within{outline:3px solid var(--focus,#326de0);outline-offset:3px;outline-offset:2px}@media(max-width:640px){.ds-search input{font-size:16px}}@media(prefers-reduced-motion:reduce){button,input{transition:none!important;animation:none!important}}",
+      "refersTo": "search-field"
+    },
+    {
+      "name": "Navegació principal",
+      "kind": "nav",
+      "description": "Navegació blava amb selecció blanca i noms accessibles.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Navegació principal\"><button aria-expanded=\"true\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M3 11a9 9 0 1 1 2.6 7M3 4v7h7m2-5v6l4 2\"/></svg><span>Cronologia</span></button><button aria-expanded=\"false\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M4 21V9l8-6 8 6v12M2 21h20M9 21v-6h6v6M9 9h6M12 6v6\"/></svg><span>Patrimoni</span></button><button aria-expanded=\"false\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12 5c-3-2-7-2-10-1v15c3-1 7-1 10 1m0-15c3-2 7-2 10-1v15c-3-1-7-1-10 1V5Z\"/></svg><span>Fonts i dades</span></button></nav>",
+      "css": ".ds-nav{display:flex;align-items:center;gap:6px;padding:12px;background:var(--navy,#173761)}.ds-nav button{font-family:'DM Sans',sans-serif;font-size:13px;font-weight:500;min-height:44px;border:0;border-radius:var(--radius,8px);display:inline-flex;align-items:center;justify-content:center;gap:8px;cursor:pointer;transition:background-color .16s,color .16s;padding:0 16px;color:#e1eafa;background:transparent}.ds-nav button[aria-expanded=true]{background:#fff;color:var(--navy,#173761)}.ds-nav button:hover{background:#2c4e7c;color:#fff}.ds-nav button:active{background:#d9e4f8;color:var(--navy,#173761)}.ds-nav button:focus-visible{outline:3px solid #c2d6ff;outline-offset:3px}@media(max-width:640px){.ds-nav button{width:44px;padding:0}.ds-nav span{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}}@media(prefers-reduced-motion:reduce){button,input{transition:none!important;animation:none!important}}",
+      "refersTo": "navigation"
+    },
+    {
+      "name": "Selector de mapa de base",
+      "kind": "nav",
+      "description": "Segments amb estat premut i àrees principals de 44px.",
+      "html": "<div class=\"ds-layers\" role=\"group\" aria-label=\"Cartografia\"><button aria-pressed=\"true\">Ortofoto</button><button aria-pressed=\"false\">Topogràfic</button><button aria-pressed=\"false\">Relleu</button></div>",
+      "css": ".ds-layers{display:flex;gap:4px;padding:4px;background:#eef2f7;border-radius:var(--radius,8px)}.ds-layers button{font-family:'DM Sans',sans-serif;font-size:13px;font-weight:500;min-height:44px;border:0;border-radius:var(--radius,8px);display:inline-flex;align-items:center;justify-content:center;gap:8px;cursor:pointer;transition:background-color .16s,color .16s;min-width:0;flex:1;padding:0 8px;font-size:12px;background:transparent;color:var(--ink,#17283e)}.ds-layers button[aria-pressed=true]{background:#fff;color:var(--blue-hover,#17438f);box-shadow:0 2px 5px #142c4714;font-weight:700}.ds-layers button:hover{background:var(--tint,#eaf0fb);color:var(--blue-hover,#17438f)}.ds-layers button:active{background:#d9e4f8}.ds-layers button:focus-visible{outline:3px solid var(--focus,#326de0);outline-offset:3px;}@media(prefers-reduced-motion:reduce){button,input{transition:none!important;animation:none!important}}",
+      "refersTo": "layer-active"
+    },
+    {
+      "name": "Etiqueta d’evidència",
+      "kind": "chip",
+      "description": "La naturalesa de la reconstrucció s’expressa amb text i color.",
+      "html": "<span class=\"ds-evidence\">Hipòtesi de reconstrucció</span>",
+      "css": ".ds-evidence{display:inline-block;font:11px \"DM Sans\",sans-serif;padding:6px 9px;background:#fbefdb;color:#785018;border-radius:4px}@media(prefers-reduced-motion:reduce){button,input{transition:none!important;animation:none!important}}",
+      "refersTo": "hypothesis-badge"
+    },
+    {
+      "name": "Panell contextual",
+      "kind": "card",
+      "description": "Superfície de lectura amb tancament i límits de les dades.",
+      "html": "<section class=\"ds-panel\" aria-labelledby=\"ds-panel-title\"><div class=\"ds-panel-heading\"><h2 id=\"ds-panel-title\">Edifici cadastral</h2><button aria-label=\"Tancar informació de l’edifici\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m6 6 12 12M6 18 18 6\"/></svg></button></div><p>Empremta actual. L’alçada és una estimació; la data cadastral no verifica la forma històrica.</p><a href=\"https://www.catastro.hacienda.gob.es/webinspire/index.html\">Consultar al Cadastre</a></section>",
+      "css": ".ds-panel{font-family:\"DM Sans\",sans-serif;width:360px;max-width:calc(100% - 48px);padding:24px;color:var(--ink,#17283e);background:var(--surface,#fff);border-radius:var(--panel-radius,14px);box-shadow:var(--shadow,0 10px 32px #11294b26)}.ds-panel-heading{display:flex;align-items:center;justify-content:space-between;gap:12px}.ds-panel h2{font-size:21px;font-weight:600;line-height:1.25;letter-spacing:-.025em;margin:0}.ds-panel button{font-family:'DM Sans',sans-serif;font-size:13px;font-weight:500;min-height:44px;border:0;border-radius:var(--radius,8px);display:inline-flex;align-items:center;justify-content:center;gap:8px;cursor:pointer;transition:background-color .16s,color .16s;width:44px;height:44px;flex:none;background:transparent;color:var(--muted,#53647b)}.ds-panel button:hover{background:var(--tint,#eaf0fb);color:var(--blue-hover,#17438f)}.ds-panel button:active{background:#d9e4f8}.ds-panel p{font-size:13px;line-height:1.7;color:var(--muted,#53647b);margin:16px 0}.ds-panel a{color:var(--blue-hover,#17438f);font-size:12px;line-height:1.7;text-underline-offset:4px}.ds-panel a:hover{color:var(--blue,#2257b8)}.ds-panel button:focus-visible,.ds-panel a:focus-visible{outline:3px solid var(--focus,#326de0);outline-offset:3px;}@media(max-width:640px){.ds-panel{padding:20px;max-width:calc(100% - 40px)}}@media(prefers-reduced-motion:reduce){button,input{transition:none!important;animation:none!important}}",
+      "refersTo": "contextual-panel"
+    },
+    {
+      "name": "Carril temporal",
+      "kind": "custom",
+      "description": "Any interactiu i rang natiu comparteixen el progrés cronològic.",
+      "html": "<div class=\"ds-timeline\"><button class=\"ds-year\" aria-label=\"Canviar l’any, ara 1843\"><strong>1843</strong><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m6 9 6 6 6-6\"/></svg></button><input aria-label=\"Any del paisatge\" aria-valuetext=\"1843\" type=\"range\" min=\"872\" max=\"2026\" value=\"1843\" step=\"1\"></div>",
+      "css": ".ds-timeline{background:#fff;padding:12px 28px;color:var(--ink,#17283e)}.ds-year{font-family:'DM Sans',sans-serif;font-size:13px;font-weight:500;min-height:44px;border:0;border-radius:var(--radius,8px);display:inline-flex;align-items:center;justify-content:center;gap:8px;cursor:pointer;transition:background-color .16s,color .16s;background:transparent;padding:0 8px;min-width:116px}.ds-year strong{font-size:32px;font-weight:600;line-height:1.2;letter-spacing:-.035em;font-variant-numeric:tabular-nums}.ds-year svg{width:15px}.ds-year:hover{background:var(--tint,#eaf0fb);color:var(--blue-hover,#17438f)}.ds-year:active{background:#d9e4f8}.ds-year:focus-visible,.ds-timeline input:focus-visible{outline:3px solid var(--focus,#326de0);outline-offset:3px;}.ds-timeline input{display:block;width:100%;height:44px;margin:0;appearance:none;background:transparent;cursor:ew-resize;accent-color:var(--blue,#2257b8)}.ds-timeline input::-webkit-slider-runnable-track{height:5px;border-radius:3px;background:linear-gradient(to right,var(--blue,#2257b8) 0 84.14%,#dce4ef 84.14% 100%)}.ds-timeline input::-webkit-slider-thumb{appearance:none;width:22px;height:22px;border:4px solid #fff;border-radius:50%;background:var(--blue,#2257b8);box-shadow:0 1px 5px #13316355;margin-top:-8.5px}.ds-timeline input::-moz-range-track{height:5px;background:#dce4ef;border-radius:3px}.ds-timeline input::-moz-range-progress{height:5px;background:var(--blue,#2257b8)}.ds-timeline input::-moz-range-thumb{width:15px;height:15px;border:4px solid #fff;border-radius:50%;background:var(--blue,#2257b8);box-shadow:0 1px 5px #13316355}@media(prefers-reduced-motion:reduce){button,input{transition:none!important;animation:none!important}}"
+    },
+    {
+      "name": "Transport documental",
+      "kind": "nav",
+      "description": "Controls de reproducció sobre superfície fosca.",
+      "html": "<div class=\"ds-film\"><button>Pausa</button><span>2:40 / 5:36</span><select aria-label=\"Velocitat del viatge\"><option>1×</option><option>2×</option><option>4×</option></select><button aria-pressed=\"true\">Subtítols</button></div>",
+      "css": ".ds-film{display:flex;align-items:center;gap:8px;padding:20px;background:#14243a;color:#fff;font:12px \"DM Sans\",sans-serif}.ds-film button,.ds-film select{font:12px \"DM Sans\",sans-serif;min-height:44px;color:#fff;border:1px solid #b0c5e352;background:#152d4be8;border-radius:8px;padding:10px 14px;cursor:pointer}.ds-film button:hover{background:#305781;color:#fff}.ds-film span{margin-right:auto;font-size:11px;font-variant-numeric:tabular-nums}.ds-film option{background:#173761;color:#fff}.ds-film button:focus-visible,.ds-film select:focus-visible{outline:3px solid #c5d8ff;outline-offset:3px}@media(max-width:360px){.ds-film span{display:none}}@media(prefers-reduced-motion:reduce){button,input{transition:none!important;animation:none!important}}"
+    },
+    {
+      "name": "Èpoques del patrimoni",
+      "kind": "button",
+      "description": "Canvi directe d’any des de la fitxa, amb fase activa indicada per aria-pressed i focus preservat. Reutilitza els tokens de DESIGN.md.",
+      "html": "<div class=\"heritage-phase-buttons\"><button aria-pressed=\"false\"><span>1897</span>El mas antic</button><button aria-pressed=\"true\"><span>1920</span>La casa reformada</button></div>",
+      "css": ".heritage-phases {margin:24px 0}\n.heritage-phases h3 {font-size:14px;margin-bottom:10px}\n.heritage-phase-buttons {display:flex;gap:8px}\n.heritage-phase-buttons button {flex:1;flex-direction:column;align-items:flex-start;gap:2px;min-height:56px;padding:10px;text-align:left;border:1px solid var(--line);border-radius:var(--radius);background:transparent;color:inherit;font:inherit;font-size:12px;cursor:pointer}\n.heritage-phase-buttons button span {display:block;font-weight:700;font-size:14px;margin-bottom:3px}\n.heritage-phase-buttons button[aria-pressed=\"true\"] {background:var(--tint);border-color:var(--blue);color:var(--blue-hover)}\n.heritage-phase-buttons button:hover {border-color:var(--blue)}\n.heritage-phase-buttons button:focus-visible {outline:3px solid var(--focus);outline-offset:3px}\n\n.heritage-phases .detail-note {margin-top:12px}\n"
+    }
+  ],
+  "narrative": {
+    "northStar": "Cartografia cultural contemporània",
+    "overview": "Una interfície territorial en català amb tipografia clara, blau de navegació i superfícies blanques. La jerarquia es construeix amb pes tipogràfic, contrast i agrupació dels controls; el paisatge conserva els seus materials cartogràfics i les seves reconstruccions documentades o interpretatives.\n\nAquest document registra el sistema implementat després de la modernització autoritzada. El mapa com a espai principal és la hipòtesi de treball aplicada a aquesta superfície, pendent de confirmar com a prioritat de públic; el contracte de superfície és a `.impeccable/surfaces/src-main-ts.md`. Els valors de la capçalera YAML són normatius; les extensions i les previsualitzacions autònomes són a `.impeccable/design.json`.",
+    "keyCharacteristics": [
+      "DM Sans per a títols, lectura, anys i controls.",
+      "Navegació blava, lectura blanca i estats explícits.",
+      "Controls agrupats, panells contextuals i cronologia persistent.",
+      "Fonts, atribucions i límits de la reconstrucció visibles."
+    ],
+    "rules": [
+      {
+        "name": "The Blau funcional Rule",
+        "body": "El blau identifica accions i estats de navegació; els colors d’evidència només expressen la naturalesa de les dades.",
+        "section": "colors"
+      },
+      {
+        "name": "The Una família Rule",
+        "body": "DM Sans resol tota la interfície; la jerarquia depèn de mida, pes i espai, i els anys utilitzen xifres tabulars.",
+        "section": "typography"
+      },
+      {
+        "name": "The Profunditat funcional Rule",
+        "body": "L’ombra separa controls i panells del paisatge; no substitueix l’estat seleccionat ni la jerarquia de lectura.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do mantenir DM Sans, el blau funcional i les superfícies blanques en les extensions de la interfície.",
+      "Do conservar àrees de 44px als controls principals, contorn de focus visible i noms accessibles per a les icones.",
+      "Do obrir un sol panell contextual i retornar el focus amb Escape o el botó de tancament.",
+      "Do mantenir visibles atribucions, fonts i distincions entre fotografia datada, dades actuals, estimacions i reconstruccions.",
+      "Do respectar el moviment reduït i verificar les composicions mòbil, estreta i horitzontal."
+    ],
+    "donts": [
+      "Don't recuperar el paper crema ni els títols amb serif del sistema substituït.",
+      "Don't presentar capes actuals, decoració imaginada o volums estimats com a evidència històrica mesurada.",
+      "Don't substituir noms de lloc i d’acció per codis de dades ni deixar accions essencials només en hover.",
+      "Don't afegir un segon mode de reproducció: Viatge guiat és l’entrada única al documental."
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+import {chromium} from '@playwright/test';
+import assert from 'node:assert/strict';
+const browser=await chromium.launch({headless:true,args:['--no-sandbox','--enable-unsafe-swiftshader']});
+const errors=[];
+try {
+ const page=await browser.newPage({viewport:{width:560,height:820},reducedMotion:'reduce'});
+ page.setDefaultTimeout(60000);page.on('pageerror',e=>errors.push(e.message));
+ page.on('console',m=>{if(m.type()==='error')errors.push(m.text());});
+ await page.goto('http://localhost:5173');await page.locator('#scene[data-resolution="0.25"]').waitFor();
+ await page.locator('#heritage-button').click();await page.locator('[data-heritage="bertran"]').click();
+ await page.locator('[data-heritage-year="1920"]').click();
+ assert.equal(await page.locator('[data-heritage-year="1920"]').getAttribute('aria-pressed'),'true');
+ await page.waitForTimeout(1500);
+ await page.screenshot({path:'/tmp/bertran-mobile.png',timeout:30000});
+ await page.locator('#close-building').click();
+ await page.screenshot({path:'/tmp/bertran-model.png',timeout:30000});
+ await page.locator('#heritage-button').click();await page.locator('[data-heritage="bertran"]').click();
+ await page.locator('[data-heritage-year="1897"]').click();
+ assert.equal(await page.locator('[data-heritage-year="1897"]').getAttribute('aria-pressed'),'true');
+ await page.locator('#close-building').click();await page.screenshot({path:'/tmp/bertran-old.png',timeout:30000});
+ await page.locator('#play').click();await page.locator('#film-play').click();
+ const chapter=await page.locator('#film-chapter option').evaluateAll(options=>options.find(o=>o.textContent.includes('Can Bertran')).value);
+ await page.locator('#film-chapter').selectOption(chapter);
+ assert.match(await page.locator('#film-caption').textContent(),/Rubió/);
+ assert.equal(await page.locator('[data-layer="terrain"]').getAttribute('aria-pressed'),'true');
+ await page.screenshot({path:'/tmp/bertran-film.png',timeout:30000});
+ await page.locator('#film-exit').click();
+ await page.locator('#heritage-button').click();await page.locator('[data-heritage="bertran"]').click();
+ await page.setViewportSize({width:1100,height:820});
+ await page.screenshot({path:'/tmp/bertran-desktop.png',timeout:30000});
+ assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);
+ assert.deepEqual(errors,[]);console.log('PASS Bertran modern/old controls, documentary close-up, desktop/mobile, no runtime or shader errors');
+}finally{await browser.close();}

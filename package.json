@@ -1,0 +1,22 @@
+{
+  "name": "vilamajor-historic",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite --host 0.0.0.0 preview",
+    "test": "node --experimental-strip-types --test tools/*.test.ts",
+    "data:geometry": "node tools/build-geometry.mjs && node tools/checksums.mjs"
+  },
+  "dependencies": {
+    "three": "^0.180.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.180.0",
+    "typescript": "^5.9.3",
+    "vite": "^7.1.9",
+    "@playwright/test": "^1.56.0"
+  }
+}
